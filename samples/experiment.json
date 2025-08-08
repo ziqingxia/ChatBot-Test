@@ -1,0 +1,139 @@
+[
+  {
+    "id": "1",
+    "event": "Requesting Track Access",
+    "objective": [
+      "How to request track access",
+      "How to clarify a message when it is unclear"
+    ],
+    "description": "You are acting as TPO Kevin. You want to enter the mainline track for inspection. Before proceeding, you must obtain permission from the Traffic Controller (TC). If the Overhead Catenary System (OCS) is still live, the TC will deny your request for safety reasons.",
+    "learning_points": [
+      "Entering the track without permission is dangerous. If the Overhead Catenary System (OCS) is still live, you could be electrocuted. Always get approval from the Traffic Controller (TC) before entering.",
+
+      "The OCS (Overhead Catenary System) carries high-voltage electricity. If it’s live, it is not safe to enter the track.",
+
+      "Use the correct phrase: 'Request access to track'. This is the standard way to ask for permission. Wrong example: 'Can/May I go on the track?'",
+
+      "If you hear part of the message but can’t understand it, don’t guess. Asking for a repeat quickly and clearly helps avoid mistakes. Use the correct phrase: 'Difficult. Say again'. Wrong example: 'What?' or 'Sorry, I didn’t hear you'",
+
+      "Use catch phrases: 'negative' -- No. Wrong example: say 'No', because 'No' can sounds like other words like 'now/go'. 'Negative' is a standardized phrase recognized across all radio users. It reduces the chance of misinterpretation.",
+
+      "Use catch phrases: 'Wilco' -- Will comply. This is a standard phrase used to indicate agreement or readiness. Wrong example: say 'OK'"
+    ],
+    "questions": [
+      "Why need to request access to track?",
+      "What does TPO refer to?",
+      "What does OCS refer to?",
+      "Why say 'negative' rather than 'no'?"    ],
+    "conversation": [
+      {
+        "users": "TPO Kevin",
+        "utterance": "TPO Kevin, Request access to track, over"
+      },
+      {
+        "control": "Mainline 02",
+        "utterance": "Main Line Zero Two, Nega\u2026 (unclear), over"
+      },
+      {
+        "users": "TPO Kevin",
+        "utterance": "TPO Kevin, Difficult. Say again your last message, over"
+      },
+      {
+        "control": "Mainline 02",
+        "utterance": "Main Line Zero Two, Negative. OCS is still live, over"
+      },
+      {
+        "users": "TPO Kevin",
+        "utterance": "TPO Kevin, Wilco, out"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "event": "Reporting Fault",
+    "objective": [
+      "How to report a fault",
+      "Practice confirming information"
+    ],
+    "questions": [
+      "Why need to report a fault?",
+      "What does PSD refer to?",
+      "Why say 'correct' rather than 'yes' or 'right'?"
+    ],
+    "description": "You are acting as TPO Sam. While on duty, you observe that Platform Screen Door (PSD) number four is malfunctioning \u2014 it is closing more slowly than normal. You must promptly report this fault to the Traffic Controller (TC) and clearly confirm their understanding of the issue.",
+    "learning_points": [
+      "Faults such as a slow-closing Platform Screen Door (PSD) can affect safety and train operations. Reporting ensures the TC is aware of the issue and can take action to monitor or fix it.",
+
+      "Be specific about the issue — avoid vague descriptions like “there’s something wrong with the door.",
+
+      "When TC repeats the message back, always confirm clearly: 'Correct', Wrong example: 'Yes' or 'Right'. Those are informal and may be unclear over radio.",
+
+      "Confirming the message helps prevent misunderstandings. Inaccurate reports or unclear responses can lead to delays or safety issues.",
+
+      "Use catch phrases: 'Wilco' -- Will comply. This is a standard phrase used to indicate agreement or readiness. Wrong example: say 'OK'. Always say “Wilco” to clearly show that you understand and will follow the instruction."
+    ],
+    "conversation": [
+      {
+        "users": "TPO Sam",
+        "utterance": "TPO Sam, Platform Screen Door number four is closing slowly, over"
+      },
+      {
+        "control": "Mainline 02",
+        "utterance": "Main Line Zero Two, Please confirm Platform Screen Door number four is closing slowly, over"
+      },
+      {
+        "users": "TPO Sam",
+        "utterance": "TPO Sam, That is correct, over"
+      },
+      {
+        "control": "Mainline 02",
+        "utterance": "Main Line Zero Two, Monitor for the next two trains, over"
+      },
+      {
+        "users": "TPO Sam",
+        "utterance": "TPO Sam, Wilco, out"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "event": "Report Emergency",
+    "objective": [
+      "How to report an emergency",
+      "Practice Read Back of critical instructions"
+    ],
+    "questions": [
+      "When should read back message?",
+      "What does 'Roger' mean?",
+      "What does 'Wait out' mean?"
+    ],
+    "learning_points": [
+      "Always say 'Emergency, Emergency' to signal a critical situation, should say 'Emergency' twice. This immediately alerts all radio users to prioritize your message. Don’t use vague terms like 'Something is wrong' or 'There’s a problem.'",
+
+      "Always perform a Read Back of critical instructions. When you receive instructions during an emergency, you must Read Back the full message. This confirms that you understood the instruction exactly as given. Never just say 'OK' or 'Got it' — it’s not clear or complete.",
+
+      "'Roger' means 'Message received and understood.' It does not mean that action is required — it simply acknowledges the message.",
+
+      "'Wait out' means: I have received your message and will respond later. It tells you to stay off the radio and wait for further contact. This is used when the controller needs time to gather more information or give further orders."
+    ],
+    "description": "You are the Train Operator of Car 09, currently driving along the depot track. While approaching Track Sierra One East, you observe a serious rail crack near Point 833. This is an emergency situation and must be reported immediately.",
+    "conversation": [
+      {
+        "users": "Car 09",
+        "utterance": "Emergency, Emergency, Depot Zero, this is Car Zero Nine at Track Sierra One East. Rail crack spotted near Point Eight Three Three, over"
+      },
+      {
+        "control": "Depot 0",
+        "utterance": "Depot Zero, Read Back message: stop your train immediately and standby for further instructions, over"
+      },
+      {
+        "users": "Car 09",
+        "utterance": "Car Zero Nine, I Read Back message: train stopped, standing by for further instructions, over"
+      },
+      {
+        "control": "Depot 0",
+        "utterance": "Depot Zero, Roger, wait out"
+      }
+    ]
+  }
+]

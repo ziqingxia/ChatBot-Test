@@ -1,0 +1,32 @@
+# all configs
+
+API_KEY: 
+
+MODEL_TYPES:
+  PDF_ANALYZE_MODEL: "gpt-4o" #"gpt-4o-mini"
+  TEXT_EMBED_MODEL: "text-embedding-3-large"
+  QA_MODEL: "gpt-4o"
+
+DATABASE:
+  ROOT_PATH: "./database"
+  OVERLAP_LENGTH: 10       # number of overlap words when split a long sentence into multiple sentences
+  TEXT_LENGTH: 100         # total number of words for each searchable sentence
+
+DICTIONARY:
+  ROOT_PATH: "./dictionary"
+
+SEARCH:
+  TOPK: 5                  # search top k items from the RAG database
+  THRESHOLD: 0.3           # add threshold, if cosine similarity score is less than threshold, won't be selected even if it's topk
+  DISPLAY_LENGTH: 100      # how many characters you want to display for search results. (only for visualization, in model response still use all searched contents)
+
+IN_CONTEXT:
+  EXAMPLE_PATH: "./samples/experiment.json"
+  NUM_SAMPLES: 1           # number of few-shot examples
+
+CHATBOT:
+  HISTORY_PATH: "./history"
+
+REFINE_KNOWLEDGE:
+  PHRASE_PATH: "./dictionary"
+  PHRASE_NAME: ["Common_Catch_Phrases", "Catch_Phrases-List_A1", "Alphabet"]
