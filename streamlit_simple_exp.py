@@ -138,7 +138,7 @@ if ("user_api_key" not in st.session_state or not st.session_state["user_api_key
 
 @st.cache_resource
 def load_config():
-    """Load configuration file"""
+    """Load configuration file for experiment scenarios"""
     try:
         with open('configs/config_exp.yaml', 'r') as file:
             config = yaml.safe_load(file)
@@ -231,6 +231,8 @@ def initialize_session_state():
     
     if 'training_started' not in st.session_state:
         st.session_state.training_started = False
+    
+
 
 def display_chat_message(role, content):
     """Display a chat message with proper styling"""
@@ -318,7 +320,9 @@ def start_new_conversation(event_name, event_desc, event_obj, event_conv, event_
     
     # Start with intro (based on main_exp.py logic)
     try:
+        # Use experiment.json logic
         response = chatbot.chat_intro(event_name, event_desc, event_obj, event_conv, user_role, ai_role, "")
+        
         st.session_state.messages.append({"role": "assistant", "content": clean_response(response)})
         st.session_state.intro_completed = True
         st.rerun()
@@ -445,17 +449,22 @@ def main():
         
         # Event selection
         if not st.session_state.conversation_started:
+            st.subheader("📚 Training Scenarios")
+            
+            # Load scenarios from experiment.json
             event_types, event_descs, event_objs, event_convs, event_points, event_ques = context_learner.get_types()
             
             # Event selection dropdown
-            selected_event = st.selectbox(
-                "Choose a training scenario:",
-                event_types,
-                format_func=lambda x: f"{x}",
-                help="Select the type of safety event to practice"
-            )
+            if event_types:
+                selected_event = st.selectbox(
+                    "Choose a training scenario:",
+                    event_types,
+                    format_func=lambda x: f"{x}",
+                    help="Select the type of safety event to practice"
+                )
             
             if selected_event:
+                # Use experiment.json logic
                 event_idx = event_types.index(selected_event)
                 event_desc = event_descs[event_idx]
                 event_obj = event_objs[event_idx]
