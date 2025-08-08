@@ -1,0 +1,1122 @@
+[
+  {
+    "Words": "Access Management System",
+    "Meaning": "An electronic security system that controls the access of personnel to various rooms or areas in stations, depot or other railway premises."
+  },
+  {
+    "Words": "Accident",
+    "Meaning": "An event or occurrence which has resulted in death or injury to person, e.g. people falling while on escalator, work injury, etc."
+  },
+  {
+    "Words": "Assistant Station Manager",
+    "Meaning": "A member of the Operations staff on duty at a station assisting the Station Manager in the operation of the station. During the absence of the Station Manager, the duty Assistant Station Manager will assume the role of the Station Manager of the station."
+  },
+  {
+    "Words": "Authorised Person",
+    "Meaning": "A Competent Person having written approval from the Licensed Electrical Worker / Technical Head or Head of Engineering to perform his work."
+  },
+  {
+    "Words": "Authorised Personnel",
+    "Meaning": "Any individual trained through management to be permitted to perform assigned duties in a safe and effective manner"
+  },
+  {
+    "Words": "Automatic Coupler",
+    "Meaning": "Other than for a mechanical coupling, an automatic coupler may enable pneumatic and/or electrical connections to be made and secured in one operation."
+  },
+  {
+    "Words": "Automatic Fare Collection",
+    "Meaning": "System and associated equipment for the collection of fares, the issue, examination and collection of tickets."
+  },
+  {
+    "Words": "Automatic Mode",
+    "Meaning": "Mode of operation of a train where acceleration, coasting, braking, and door operation is controlled by the ATO system."
+  },
+  {
+    "Words": "Automatic Train Control",
+    "Meaning": "Automatic system that comprises of Automatic Train Operation and Automatic Train Protection."
+  },
+  {
+    "Words": "Automatic Train Operation",
+    "Meaning": "Automatic system that controls acceleration, braking, station stopping, coasting and door operation of a train."
+  },
+  {
+    "Words": "Automatic Train Protection",
+    "Meaning": "Automatic system that transmits continuous coded signals from the track to the train.  The system compares the actual train speed with target safety speed for that section of track and ensures that there is always sufficient unoccupied track in event of an emergency brake application for the train to stop clear of any other train or obstruction."
+  },
+  {
+    "Words": "Auxiliary Reservoir",
+    "Meaning": "Pressure vessel that stores compressed air to operate"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "brake cylinders on locomotives and miscellaneous vehicles."
+  },
+  {
+    "Words": "Auxiliary Supply",
+    "Meaning": "System for providing power for vehicle or train lighting, air conditioning, passenger facilities and emergency battery systems."
+  },
+  {
+    "Words": "Baseplate",
+    "Meaning": "Steel or cast-iron plate for supporting rails on concrete sleepers, or on concrete slab tracks."
+  },
+  {
+    "Words": "Block Back",
+    "Meaning": "A term used to denote a queue of trains detained behind a delayed train or other obstruction."
+  },
+  {
+    "Words": "Bogie",
+    "Meaning": "Pivoted part of a vehicle that includes wheel-pairs."
+  },
+  {
+    "Words": "Bonding Cable",
+    "Meaning": "Length of cable that is used as an electrical connection to ensure equipotential e.g. in a running rail, cable or pipe."
+  },
+  {
+    "Words": "Braking Distance",
+    "Meaning": "Distance required for a train to stop under normal braking conditions, taking into account the:"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Track gradient"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Weight of the train"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Speed of the train."
+  },
+  {
+    "Words": "Breakaway",
+    "Meaning": "A term denoting an accidental breakage of coupling that results in a Train becoming divided."
+  },
+  {
+    "Words": "Buffer Stop",
+    "Meaning": "A fixed or friction sliding device at the end of a siding or overrun to prevent a Train from running beyond."
+  },
+  {
+    "Words": "Busbar",
+    "Meaning": "Single heavy-duty electrical conductors from which several lower current feeds are taken."
+  },
+  {
+    "Words": "Bypass Isolator",
+    "Meaning": "An isolator normally in the Open position located at the trackside of a traction substation for connecting adjacent overhead line power sections."
+  },
+  {
+    "Words": "Cab Signal",
+    "Meaning": "Automatic Train Protection codes displayed as target speeds on the dual gauge speedometer on the driving consoles of Passenger Trains and Locomotives."
+  },
+  {
+    "Words": "Call On Light",
+    "Meaning": "The indication shown by a standing train to the driver of a rescue train that he may proceed at caution speed to couple."
+  },
+  {
+    "Words": "Call-Back Time",
+    "Meaning": "The latest time by which the Track Protection Officer or the Possession Controller must call back the OCC/DCC to surrender his Track Occupation Authority when working on or near the mainline track in Non-Traffic hours."
+  },
+  {
+    "Words": "Cant",
+    "Meaning": "Degree by which one rail is raised above the other."
+  },
+  {
+    "Words": "Catenary Wire",
+    "Meaning": "The wire forming part of the overhead traction current supply system, which distributes electrical power from Substations to Electric Trains through the pantographs."
+  },
+  {
+    "Words": "Caution Notice",
+    "Meaning": "A notice in approved form attached adjacent to control handles or equipment indicating that persons are working on the circuit or apparatus that must not be made live or used."
+  },
+  {
+    "Words": "Caution Speed",
+    "Meaning": "The speed at which a train is operated in manual modes so that the Train Driver can stop the train short of any obstruction within the line of sight."
+  },
+  {
+    "Words": "Change Ends",
+    "Meaning": "The process of a Train Driver leaving the original driving position and proceeding to the other end of the Train for driving."
+  },
+  {
+    "Words": "Check Rail",
+    "Meaning": "Additional rail placed within the track gauge parallel with the running rail adjacent to common or obtuse crossings to guide the wheels passing the crossing nose."
+  },
+  {
+    "Words": "Cherry Picker",
+    "Meaning": "A mobile working platform on an extendable arm for carrying out work at height."
+  },
+  {
+    "Words": "Chief Controller",
+    "Meaning": "A member of the Operations staff on duty at the OCC responsible for the working of the OCC in the monitoring and control of the operation of the Railway."
+  },
+  {
+    "Words": "Circuit Breaker",
+    "Meaning": "A switch designed to open and interrupt the load and fault current flowing in a circuit."
+  },
+  {
+    "Words": "Circuit Main Earth",
+    "Meaning": "An earthing arrangement applied prior to the issue of a Permit-To-Work."
+  },
+  {
+    "Words": "Clearance",
+    "Meaning": "The distance between structure and track or Vehicle, or between Vehicles."
+  },
+  {
+    "Words": "Coast",
+    "Meaning": "Action of running train without power being fed to the traction motors."
+  },
+  {
+    "Words": "Coded Manual Mode",
+    "Meaning": "Mode of operation in which a Train is driven manually, but remains subject to the maximum speed determined by Automatic Train Protection codes."
+  },
+  {
+    "Words": "Collector Shoe",
+    "Meaning": "Part of train which engages with the Third Rail and draws power from the Third Rail. Located at the 2 DM cars."
+  },
+  {
+    "Words": "Competent Person",
+    "Meaning": "A person who is physically fit for a particular task, has the necessary skills and knowledge, and has been so trained, assessed, qualified and certificated."
+  },
+  {
+    "Words": "Confined Space",
+    "Meaning": "Any chamber, tank, pit, pipe, flue including other similar space in which dangerous substances are liable to be present to such an extent as to involve risk of: "
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Fire or explosion occurring"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Injury to the health of persons through exposure to toxic substances"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Persons being asphyxiated due to inadequate supply of air."
+  },
+  {
+    "Words": "Consist",
+    "Meaning": "Single vehicle or a group of vehicles that are not separated during normal operation."
+  },
+  {
+    "Words": "Control Room",
+    "Meaning": "A control room is any of the following:"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Operations Control Centre (OCC)"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Depot Control Centre (DCC)"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Passenger Service Centre (PSC)"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Test Track Control Room (TTCR)"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Senior Depot Supervisor (SDS) Office."
+  },
+  {
+    "Words": "Coupler",
+    "Meaning": "A mechanical device by which two Vehicles are joined together."
+  },
+  {
+    "Words": "Crossover",
+    "Meaning": "Combination of points and crossings that permits trains to cross from one track to another."
+  },
+  {
+    "Words": "Cross-Passage",
+    "Meaning": "An opening between 2 running tunnels to enable transfer of detrained passengers from one tunnel to another."
+  },
+  {
+    "Words": "Cross-Passage Door",
+    "Meaning": "Door at cross passage, which prevents smoke getting from one tunnel to another."
+  },
+  {
+    "Words": "Customer Service Officer",
+    "Meaning": "A member of the Operations staff rendering assistance to passengers, station staff and acting as Train Drivers."
+  },
+  {
+    "Words": "Danger Notice",
+    "Meaning": "A notice in approved form attached to apparatus that is live or in use for maintenance purposes, calling attention to the danger of approaching or interfering with such apparatus."
+  },
+  {
+    "Words": "Deadman Safety Device",
+    "Meaning": "A device used during manual mode of driving.  Release of the device causes an automatic emergency brake application."
+  },
+  {
+    "Words": "Degraded Mode",
+    "Meaning": "A back up operation mode deviating from the Normal Mode of operation."
+  },
+  {
+    "Words": "Depot",
+    "Meaning": "For stabling and maintenance of Trains"
+  },
+  {
+    "Words": "Depot Driver",
+    "Meaning": "A member of Rolling Stock qualified to drive a Train, Locomotive or miscellaneous Vehicles within Depot Limits."
+  },
+  {
+    "Words": "Depot Limits",
+    "Meaning": "The limits of depot under the control of Depot Traffic Controller and Mainline Traffic Controller."
+  },
+  {
+    "Words": "Depot Traffic Controller",
+    "Meaning": "A member of the Operations staff on duty at the DCC responsible for the control of train movements within the Depot Limits."
+  },
+  {
+    "Words": "Designated Hot Work Area",
+    "Meaning": "An area demarcated by the Landlord of a premise for the purpose of carrying out hot work safely. The Landlord shall ensure that no incompatible works is allowed within the same area."
+  },
+  {
+    "Words": "Detrainment",
+    "Meaning": "Process of having all passengers alight from a Train."
+  },
+  {
+    "Words": "Dispatching",
+    "Meaning": "A term referring to the act of putting a Train into service from a Siding, Station or Depot."
+  },
+  {
+    "Words": "Electric Train Driver",
+    "Meaning": "A member of the Operations staff qualified to drive Electric Trains in manual modes in the Main Line, Depot and Test Track."
+  },
+  {
+    "Words": "Emergency",
+    "Meaning": "A situation which is life threatening, may cause damage on to any transit facility, Permanent Way, Vehicle or is likely to cause a delay to passenger services of more than 15 mins."
+  },
+  {
+    "Words": "Empty Train",
+    "Meaning": "An Electric Train not in passenger service."
+  },
+  {
+    "Words": "Engineer",
+    "Meaning": "Head, Rail Engineering or his delegate."
+  },
+  {
+    "Words": "Engineer’s Person-In-Charge",
+    "Meaning": "A person trained and qualified by SBS TRANSIT and is appointed to be fully responsible on site for the safe and correct execution of engineering work such as installation, modification, testing or maintenance anywhere on the Railway. Engineer’s Person-In-Charge can be an employee of SBS TRANSIT, LTA or a contractor."
+  },
+  {
+    "Words": "Engineer’s Train",
+    "Meaning": "Any Train by design for the purpose of engineering or recovery work."
+  },
+  {
+    "Words": "Engineer’s Train Driver",
+    "Meaning": "A member of the Engineering Department qualified to drive Engineer’s Trains in manual modes in the Main Line, Depot and Test Track."
+  },
+  {
+    "Words": "Engineer-In-Charge",
+    "Meaning": "A member of the Engineering staff who manages technical aspects of a major incident on site."
+  },
+  {
+    "Words": "Environmental Control System",
+    "Meaning": "System of air-conditioning and ventilation of tunnels, stations, etc."
+  },
+  {
+    "Words": "Entry Pass",
+    "Meaning": "A security pass issued to staff and Long Term Contractors to authorise them to enter the railway premise"
+  },
+  {
+    "Words": "Facing Points",
+    "Meaning": "The location at which a diverging movement may be made in the direction of travel."
+  },
+  {
+    "Words": "Facility",
+    "Meaning": "Any building or structure within the railway premise"
+  },
+  {
+    "Words": "Fail-Safe",
+    "Meaning": "A design feature that ensures the system remains safe; or in the event of a failure, causes the system to revert to a state that will not result in an unsafe situation."
+  },
+  {
+    "Words": "Fall Protection System",
+    "Meaning": "A fall protection system provides protection against the hazard of falling from heights."
+  },
+  {
+    "Words": "Fish bolt",
+    "Meaning": "Bolts used with fishplates for joining rail lengths."
+  },
+  {
+    "Words": "Fishplate",
+    "Meaning": "Steel plate, used in pairs, for joining rail lengths together."
+  },
+  {
+    "Words": "Fixed Signal",
+    "Meaning": "A colour light signals meant for Restricted Manual Mode movement, physically mounted on or near the track."
+  },
+  {
+    "Words": "Flat Wagon",
+    "Meaning": "A non-passenger Vehicle that has a level floor, or no sides."
+  },
+  {
+    "Words": "Fouling Point",
+    "Meaning": "The limiting point between two converging tracks beyond which trains on both tracks may collide."
+  },
+  {
+    "Words": "G Clamp",
+    "Meaning": "A clamping device to secure joining rail using fishplate, usually 4 clamps per joint"
+  },
+  {
+    "Words": "Gradient",
+    "Meaning": "The slope of a line uphill or downhill measured according to a level datum, usually quoted in a percentage."
+  },
+  {
+    "Words": "Group Station Manager",
+    "Meaning": "The Station Manager on duty at SKG or PGL station."
+  },
+  {
+    "Words": "Handbrake",
+    "Meaning": "A mechanical brake that is operated manually."
+  },
+  {
+    "Words": "Hand lamp",
+    "Meaning": "An electric or other approved portable lamp which, when switched on, is capable of displaying various aspects."
+  },
+  {
+    "Words": "Haul Out",
+    "Meaning": "A method of rescuing a failed train by using the preceding train or locomotive to haul it to a depot or siding."
+  },
+  {
+    "Words": "Hazardous Material",
+    "Meaning": "Any substance that, due to its chemical, physical, or biological nature, causes safety, public health, or environmental concerns that would require an elevated level of effort to manage."
+  },
+  {
+    "Words": "Headwall",
+    "Meaning": "A location at the platform end door, adjacent to the front of an Electric Train at its normal stopping position in the normal direction of travel."
+  },
+  {
+    "Words": "Headway",
+    "Meaning": "The time interval between trains."
+  },
+  {
+    "Words": "High Voltage",
+    "Meaning": "A voltage (subject to permissible variations):"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Between conductors exceeding 1000 volts A.C."
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Between any conductor and earth exceeding 600 volts A.C."
+  },
+  {
+    "Words": "Incident",
+    "Meaning": "An event or occurrence which may result in property damage or affect safety but has not resulted in death or injury e.g. train passed signal at danger, rail break, etc."
+  },
+  {
+    "Words": "Incident Officer",
+    "Meaning": "A member of staff appointed by the CC to take charge of the control of a major incident declared by the CC."
+  },
+  {
+    "Words": "Instruction",
+    "Meaning": "A detailed description of actions required to undertake a task, or to operate or maintain a piece of equipment."
+  },
+  {
+    "Words": "Integrated Supervisory & Control System",
+    "Meaning": "A system that integrates the monitoring and control of various railway systems into one system that presents the operator with a common user interface."
+  },
+  {
+    "Words": "Interchange",
+    "Meaning": "A station where passengers may alight from one train and board another on a different route."
+  },
+  {
+    "Words": "Island Platform",
+    "Meaning": "A single station platform with a track on either side."
+  },
+  {
+    "Words": "Isolate",
+    "Meaning": "Disconnect from all sources of electrical or pneumatic supply."
+  },
+  {
+    "Words": "Isolator",
+    "Meaning": "A non load-making or non load-breaking switch used to isolate a part of the electrical system."
+  },
+  {
+    "Words": "Landlord",
+    "Meaning": "A Landlord is a member of staff entrusted with the overall supervision and safe keeping of the railway premises or infrastructure assigned to him."
+  },
+  {
+    "Words": "Level Crossing",
+    "Meaning": "Place at which a road crosses a railway track on the same level."
+  },
+  {
+    "Words": "Life Cycle",
+    "Meaning": "All phases of the system’s life including design, research, development, test and evaluation, production, deployment (inventory), operations and support, and disposal."
+  },
+  {
+    "Words": "Line Clear",
+    "Meaning": "A message given to the Traffic Controller confirming that it is safe for traction current to be switched on and/or train services to restart after engineering work has been carried out on a section of the Main Line, or after an operating incident where staff or passengers have been on the track."
+  },
+  {
+    "Words": "Local Control",
+    "Meaning": "The assumption of control of systems at a station or depot, e.g., "
+  },
+  {
+    "Words": NaN,
+    "Meaning": "Signalling, Environmental Control or Power Supply System."
+  },
+  {
+    "Words": "Locomotive",
+    "Meaning": "A Vehicle capable of self-propulsion and of providing tractive and braking effort for moving other Vehicles."
+  },
+  {
+    "Words": "Low Voltage",
+    "Meaning": "A voltage (subject to permissible variations):"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Exceeding 50 volts A.C. or 120 volts D.C. between conductors or to earth, and"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Not exceeding"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       1000 volts A.C. or 1500 volts D.C. between conductors, or"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       600 volts A.C. or 900 volts D.C. between conductors and earth."
+  },
+  {
+    "Words": "Main Line",
+    "Meaning": "The track demarcated to serve both Traffic and Non-Traffic Hours."
+  },
+  {
+    "Words": "Manual Isolator",
+    "Meaning": "An isolator that can be operated manually by means of a handle."
+  },
+  {
+    "Words": "Motorised Isolator",
+    "Meaning": "A power-operated isolator that can be operated remotely."
+  },
+  {
+    "Words": "Movement Joint",
+    "Meaning": "Joint that allows for expansion or contraction of a structure according to the prevailing ambient temperature."
+  },
+  {
+    "Words": "Non-Automatic Area",
+    "Meaning": "The area of the Depot within which the working of trains is not governed by the Automatic Train Protection (ATP) system."
+  },
+  {
+    "Words": "Non-identified Automatic Protection",
+    "Meaning": "A protected area automatically set up by the signalling system when a non-signalling equipped or mute train occupies a track circuit."
+  },
+  {
+    "Words": "Non-passenger Train",
+    "Meaning": "Train composed entirely of non-passenger carrying Vehicles and any Engineer’s Train, regardless of its consist."
+  },
+  {
+    "Words": "Non-stop",
+    "Meaning": "The action of not calling at a station or stations."
+  },
+  {
+    "Words": "Non-Traffic Hours",
+    "Meaning": "The period between the time traction current is actually switched off at close of traffic and the time of switching on traction current published in the Working Timetable or the Traffic Bulletin or the Emergency Notice or a declaration of emergency."
+  },
+  {
+    "Words": "Normal",
+    "Meaning": "The customary position of points."
+  },
+  {
+    "Words": "Normal Mode",
+    "Meaning": "All equipment and systems on the Railway performing in accordance with the intended design."
+  },
+  {
+    "Words": "On Call Official",
+    "Meaning": "A member of staff who may be activated at short notice to respond to an incident. This includes but is not limited to EIC, AEIC or duty officer of a department"
+  },
+  {
+    "Words": "On/Near the Track",
+    "Meaning": "A distance within 2 meters of any rail of the track, unless there is fixed barrier between the staff and the track, or any distance within 1 meter of the platform edge on station platform with Platform Screen Doors open is considered as being on or near the track."
+  },
+  {
+    "Words": "On-Track Machine",
+    "Meaning": "The Rail Crane or the Rail Grinder or the Multi-Function Vehicle each of which is capable of self-propulsion."
+  },
+  {
+    "Words": "Operations Control Centre",
+    "Meaning": "A control room located in the Depot that is equipped with facilities to control train service, power supply and environmental control systems."
+  },
+  {
+    "Words": "Operations Staff Member",
+    "Meaning": "A member of Operations who is "
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Competent to take himself and small parties onto the track under protection arrangements in Non-Traffic Hours for training or inspection purposes, and"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Competent to set up safe arrangements on or near the Main Line track to deal with operating incidents in Traffic Hours."
+  },
+  {
+    "Words": "Operations Staff Member (Customer Service)",
+    "Meaning": "A member of Operations who is "
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Competent to set up safe arrangements on or near the Main Line track to deal with operating incidents in Traffic Hours."
+  },
+  {
+    "Words": "Overhead Catenary System",
+    "Meaning": "An arrangement of wires suspended over the track for supplying traction current to trains."
+  },
+  {
+    "Words": "Overhead Line Jumper",
+    "Meaning": "A flexible conductor located in the overhead line circuit."
+  },
+  {
+    "Words": "Overrun Track",
+    "Meaning": "A section of track beyond a terminal station, acting as a buffer zone for a train that overruns the setback marker at the platform."
+  },
+  {
+    "Words": "Pantograph",
+    "Meaning": "A retractable frame mounted on insulators on the roof of Electric Trains and electric locomotives that presses against the underside of the catenary wire, and through which traction current is collected."
+  },
+  {
+    "Words": "Parking Brake",
+    "Meaning": "Mechanical brake applied automatically in the event of loss of main air pressure."
+  },
+  {
+    "Words": "Passenger Service Centre",
+    "Meaning": "A control room on the station concourse where:"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       The sales of tickets, exchange, refund and validation takes place"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       General customer enquiries are dealt with"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       The station’s control equipment is located."
+  },
+  {
+    "Words": "Passenger Train",
+    "Meaning": "An electric train in passenger service."
+  },
+  {
+    "Words": "Permanent Way",
+    "Meaning": "The railway track including rails, fastenings and rail supports."
+  },
+  {
+    "Words": "Permit to Access",
+    "Meaning": "A form of declaration signed and issued by an Authorised Person, to a Person-In-Charge of work in the proximity of \"LIVE\" equipment for the purpose of warning persons of the danger of working near the \"LIVE\" equipment."
+  },
+  {
+    "Words": "Permit-To-Work (Electrical)",
+    "Meaning": "A form of declaration signed and given by an Authorized Person to an EPIC of the work to be carried out on any earthed apparatus.  Its purpose is to make known to such person exactly which apparatus:"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Is isolated from all live conductors"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Has been discharged"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Is connected to earth, and"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Is safe to work on."
+  },
+  {
+    "Words": "Permit-To-Work (Mechanical)",
+    "Meaning": "A form signed and given by an Authorized Person to an EPIC of the work to be carried out on certain mechanical plant.  Its purpose is to make known to such person exactly which apparatus is safe to work on or near."
+  },
+  {
+    "Words": "Personnel",
+    "Meaning": "Any person working in SBS Transit (Rail) Railway Premises"
+  },
+  {
+    "Words": "Platform End Doors",
+    "Meaning": "Doors located at both ends of a platform to enable authorised persons to gain access to the track, some plant rooms and some fire emergency exits."
+  },
+  {
+    "Words": "Platform Screen Doors",
+    "Meaning": "Doors fitted at the platform edge which control boarding and alighting from train.  These doors operate in unison with train doors."
+  },
+  {
+    "Words": "Pneumatic brake",
+    "Meaning": "A brake that is operated by compressed air."
+  },
+  {
+    "Words": "Points",
+    "Meaning": "The moveable rail sections by which Vehicles are directed from one track to another."
+  },
+  {
+    "Words": "Point Clamp",
+    "Meaning": "Device for securing points at either Normal or Reverse position, capable of being locked by padlock."
+  },
+  {
+    "Words": "Point Detection",
+    "Meaning": "Electro-mechanical process by which points are proved in the direction set."
+  },
+  {
+    "Words": "Point Machine (Point Motor)",
+    "Meaning": "The power equipment capable of moving points to the required position."
+  },
+  {
+    "Words": "Point Number Plate",
+    "Meaning": "A plate fixed adjacent to a set of points denoting the identification number and normal position of the points."
+  },
+  {
+    "Words": "Point Of Safety",
+    "Meaning": "Point Of Safety is a location into which an individual can stand back safely from the work he is doing, with no part of his body, tools or equipment in contact or in the path of the train movement.  This is illustrated in figures 1, 2, & 3.  "
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Figure 1 – At the Platform"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Figure 2 – At least 2 arm lengths from the nearest running rail"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Figure 3 – For location less than 2 arm lengths from the nearest running rail – the person must lean against the face of the column perpendicular to train movement"
+  },
+  {
+    "Words": "Possession",
+    "Meaning": "A clearly defined section of a track or tracks under the direct control of a Possession Controller, for the purpose of carrying tasks within that section."
+  },
+  {
+    "Words": "Possession Controller",
+    "Meaning": "A person who has been trained and certificated by SBS Transit (Rail) to take and supervise possessions."
+  },
+  {
+    "Words": "Possession Controller Main Line",
+    "Meaning": "A person who has been trained and certificated by SBS Transit (Rail) to take and supervise possessions on the Main Line which do not have Engineer’s Train, Consist or Vehicle operating within the possession."
+  },
+  {
+    "Words": "(No Trains)",
+    "Meaning": NaN
+  },
+  {
+    "Words": "Possession Controller Main Line",
+    "Meaning": "A person who has been trained and certificated by SBS Transit (Rail) as a Possession Controller Main Line and who has been further qualified to take and supervise a possession on the Main Line which has Engineer’s Train, Consist or Vehicle working within it."
+  },
+  {
+    "Words": "(Trains)",
+    "Meaning": NaN
+  },
+  {
+    "Words": "Possession Controller Depot",
+    "Meaning": "A person who has been trained and certificated by SBS Transit (Rail) to take and supervise possessions in the Depot which do not have Engineer’s Train, Consist or Vehicle operating within the possession."
+  },
+  {
+    "Words": "(No Trains)",
+    "Meaning": NaN
+  },
+  {
+    "Words": "Possession Controller Depot",
+    "Meaning": "A person who has been trained and certificated by SBS Transit (Rail) as a Possession Controller Depot and who has been further qualified to take and supervise a possession in the Depot which has Engineer’s Train, Consist or Vehicle working within it."
+  },
+  {
+    "Words": "(Trains)",
+    "Meaning": NaN
+  },
+  {
+    "Words": "Possession Limits",
+    "Meaning": "The Possession Limits of a possession are the published or declared limits of a possession."
+  },
+  {
+    "Words": "Power Facility Regulator",
+    "Meaning": "A member of the Engineering staff on duty at the OCC responsible for the monitoring and controlling the power supply and Environmental Control System equipment of the Railway."
+  },
+  {
+    "Words": "Power Rail",
+    "Meaning": "Consists of positive and negative rails which supply DC traction power to the electric vehicle transmitted through positive rail and negative traction power returns to the station through negative rail."
+  },
+  {
+    "Words": "Power Section",
+    "Meaning": "A length of Overhead Catenary System, 3rd Rail or Power Rail equipment between Substations, or a specific length of track."
+  },
+  {
+    "Words": "Pressure Vessel",
+    "Meaning": "A compressed air receiver or a pressurized steam receiver."
+  },
+  {
+    "Words": "Procedure",
+    "Meaning": "A description of responsibilities and actions of personnel to deal with a specific situation or to perform a specific task in accordance with the rules."
+  },
+  {
+    "Words": "Process",
+    "Meaning": "Any activity or operation that receives inputs and converts them to outputs."
+  },
+  {
+    "Words": "Protection",
+    "Meaning": "Method by which:"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       A person or persons on or near the track are safeguarded from potential train movements, or"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       A Train is safeguarded from other train movements or obstacles"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Persons or equipment are safeguarded from electrical current."
+  },
+  {
+    "Words": "Protection Limits",
+    "Meaning": "The Protection Limits of a possession are defined as the points at which the possession is protected from persons or trains approaching the possession."
+  },
+  {
+    "Words": "Push Out",
+    "Meaning": "A method of rescuing a failed Train by using the following Train or Locomotive to push it to a Depot or siding."
+  },
+  {
+    "Words": "Rail Relay Bonding Cable",
+    "Meaning": "A length of cable provided with clips or clamps that is used as a temporary electrical connection to bridge a gap in a running rail."
+  },
+  {
+    "Words": "Railway Premises",
+    "Meaning": "Infrastructure and land in use for Railway and ancillary purposes where these are the responsibility of SBS Transit."
+  },
+  {
+    "Words": "Railway Boundary",
+    "Meaning": "A perimeter wall or fence delineating the Railway from the outside."
+  },
+  {
+    "Words": "Railway Publication",
+    "Meaning": "Any document published by the SBS Transit concerning the operation of the Railway."
+  },
+  {
+    "Words": "Reception Track",
+    "Meaning": "A track connecting the depot to the mainline. It is divided into 2 parts. One part is under the signalling control of the depot while the other part is under the signalling control of the mainline."
+  },
+  {
+    "Words": "Rectifier",
+    "Meaning": "Apparatus for the conversion of alternating current into direct current."
+  },
+  {
+    "Words": "Red Flashing Light",
+    "Meaning": "An approved electrical flashing device applied at the boundaries of a possession or worksite as a means of protection arrangement."
+  },
+  {
+    "Words": "Residual Risk",
+    "Meaning": "The remaining risk that exists after the agreed mitigation measures are implemented."
+  },
+  {
+    "Words": "Restricted Manual Mode",
+    "Meaning": "Mode of operation of a train where the train is driven manually subject to a maximum speed of 18 kph.  Movements in Restricted Manual mode may only be authorised, by the Traffic Controller for the main line or Depot Train Controller within the ATO area of the depot."
+  },
+  {
+    "Words": "Revenue Hours",
+    "Meaning": "Revenue hours is when revenue is collected."
+  },
+  {
+    "Words": "Reverse",
+    "Meaning": "The position of points opposite to Normal."
+  },
+  {
+    "Words": "Risk",
+    "Meaning": "An expression of the impact and possibility of a hazard in terms of potential severity and probability of occurrence."
+  },
+  {
+    "Words": "Rule",
+    "Meaning": "A principle or directive established by SBS Transit (Rail) to ensure safety at work and efficiency of operations."
+  },
+  {
+    "Words": "Running Track",
+    "Meaning": "A track outside Depot Limits or sidings on which Trains operate for passenger service."
+  },
+  {
+    "Words": "Safe System of Work",
+    "Meaning": "A considered method of working that takes proper account of the potential hazards to workers and provides a formal framework to ensure that all necessary steps for safe working have been anticipated and implemented."
+  },
+  {
+    "Words": NaN,
+    "Meaning": "A safe system of work may include one or a combination of the following: Permit-To-Work, TOA, Work Instructions, provision of PPE, safety precautions, safe work practices, etc."
+  },
+  {
+    "Words": "Safety",
+    "Meaning": "Freedom from those conditions that can cause death, injury, occupational illness, damage to or loss of equipment or property, or damage to the environment."
+  },
+  {
+    "Words": "Safety Critical",
+    "Meaning": "A term applied to any condition, event, operation, process, or item whose proper recognition, control, performance, or tolerance is essential to safe system operation and support, e.g., safety critical function, safety critical path, or safety critical component."
+  },
+  {
+    "Words": "Safety Critical Work",
+    "Meaning": "Work activity that has the potential to significantly affect the safe operation of the transit system if an error is made which is not detected or corrected."
+  },
+  {
+    "Words": "Safety Management System",
+    "Meaning": "A workable framework to manage safety in a systematic, proactive and consistent manner.  By following its safety philosophy and the supporting mechanism, personnel can effectively implement the safety strategies as set out in the SBS Transit Safety Policy."
+  },
+  {
+    "Words": "Section Insulator",
+    "Meaning": "Device included in the Overhead Catenary System equipment that allows free passage of a pantograph from one section to another without interrupting the supply to the train whilst isolating electrically the sections."
+  },
+  {
+    "Words": "Section  Isolator",
+    "Meaning": "A device for electrically sub-dividing an overhead catenary equipment section."
+  },
+  {
+    "Words": "Securing of Points",
+    "Meaning": "To manually set and fix the movable rail sections of a set of Points in one position for safe running of train."
+  },
+  {
+    "Words": "Semi Permanent Coupling",
+    "Meaning": "Coupling between Vehicles to form a train with fixed consist.  The coupling consists of a bar linked by pins, bolt and nuts, to the adjacent Vehicle."
+  },
+  {
+    "Words": "Senior Depot Supervisor",
+    "Meaning": "A member of the Rolling Stock Department who is in charge of the depot operation during his work shift."
+  },
+  {
+    "Words": "Service Number",
+    "Meaning": "Train working in a numbered timetable path."
+  },
+  {
+    "Words": "Short Circuiting Device",
+    "Meaning": "An appliance that connects the Overhead Catenary System to the rail , 3rd Rail or Power Rail to the earth as a safeguard after traction current is switched off."
+  },
+  {
+    "Words": "Siding",
+    "Meaning": "A length of track that branches out from the running or Reception Tracks on which rolling stock can be stabled."
+  },
+  {
+    "Words": "Signal Aspect",
+    "Meaning": "The indication displayed by a signal."
+  },
+  {
+    "Words": "Slab Track",
+    "Meaning": "Rails that are laid on a base of solid concrete."
+  },
+  {
+    "Words": "Sleeper",
+    "Meaning": "Horizontal member laid at right angles to the rails to support and hold the rails to gauge."
+  },
+  {
+    "Words": "Soleplate",
+    "Meaning": "Metal plate under the tips of points that holds the rails rigid to gauge, and on to which point control equipment for operation and detection may be fitted."
+  },
+  {
+    "Words": "Staff",
+    "Meaning": "Employees of SBS Transit (Rail)."
+  },
+  {
+    "Words": "Staff ID Card",
+    "Meaning": "The personal CEPAS card issued to all SBS Transit staff by HR Dept for the purpose of travelling on public transport. It is also used for allowing access into AMS protected areas and rooms"
+  },
+  {
+    "Words": "Stalled",
+    "Meaning": "The stopping of a train due to a defect either on the Train itself or the one ahead, or due to a failure or incident."
+  },
+  {
+    "Words": "Station Manager",
+    "Meaning": "A member of the Operations staff on duty at a station responsible for the operation of the station."
+  },
+  {
+    "Words": "Store",
+    "Meaning": "Storing shall mean leaving something, either outside Track Occupation Authorisation duration in tunnel or guideway or in non-track area with storage permit."
+  },
+  {
+    "Words": "Stretcher Bar",
+    "Meaning": "Steel rod that holds the moveable rails of a set of points in their correct relative positions."
+  },
+  {
+    "Words": "Structure Gauge",
+    "Meaning": "The cross-section outline inside which no part of any fixed structure may extend, except those infringements that have been accepted by the SBS Transit."
+  },
+  {
+    "Words": "Substation",
+    "Meaning": "A building or compound containing electrical equipment for the reception of high voltage A.C. and for transforming it.  "
+  },
+  {
+    "Words": NaN,
+    "Meaning": "Also see “traction substation”."
+  },
+  {
+    "Words": "Sweep Train",
+    "Meaning": "An Empty Train designated to carry out inspection over the track."
+  },
+  {
+    "Words": "Switch Room",
+    "Meaning": "A room containing electrical equipment for the reception of low voltage A.C."
+  },
+  {
+    "Words": "System Safety",
+    "Meaning": "The application of engineering and management principles, criteria, and techniques to achieve acceptable mishap risk, within the constraints of operational effectiveness and suitability, time, and cost, throughout all phases of the system life cycle."
+  },
+  {
+    "Words": "Tail wall",
+    "Meaning": "The location at the platform end doors, adjacent to the rear of an Electric Train at its normal stopping position in the normal direction of travel."
+  },
+  {
+    "Words": "Target Disc",
+    "Meaning": "A disc displayed on the driving console of a Vehicle to warn against movement of the Vehicle or Train."
+  },
+  {
+    "Words": "Temporary Earth",
+    "Meaning": "An additional earth which is applied after the issue of a Permit-To-Work which must be removed prior to the cancellation of the Permit-To-Work."
+  },
+  {
+    "Words": "Test Track Controller",
+    "Meaning": "A person qualified to Track Protection Officer (Depot) level who is the sole person to control train movements on the Depot Test Track when control has been transferred from the Depot Control Centre to the Test Track Control Room."
+  },
+  {
+    "Words": "Third Rail",
+    "Meaning": "Supplies 750v DC power to the trains."
+  },
+  {
+    "Words": "Ticket",
+    "Meaning": "A valid authority to travel on the railway."
+  },
+  {
+    "Words": "Track",
+    "Meaning": "Track is defined as rails or guideway that a train or LRV respectively travels along."
+  },
+  {
+    "Words": "Track Access Request",
+    "Meaning": "A document within the Maintenance Management System which gives all the details of a piece of work that a party wishes to do in an area which is on or near the track."
+  },
+  {
+    "Words": "Track Circuit",
+    "Meaning": "An electrical circuit installed in the running rails that detects the presence of a train."
+  },
+  {
+    "Words": "Track Current",
+    "Meaning": "The electricity required by an Electric Train or Locomotive for movement."
+  },
+  {
+    "Words": "Track Gauge",
+    "Meaning": "The distance between the running edges of rails on the same track.  The standard dimension is 1435 mm."
+  },
+  {
+    "Words": "Track Occupation Authority",
+    "Meaning": "A document that contains all the details including electrical isolations, given by the Traffic Controller to a Track Protection Officer or a Possession Controller for accessing the track."
+  },
+  {
+    "Words": "Track Protection Officer (Traffic Hours)",
+    "Meaning": "A person competent to set up a safe system of work on or near the track for a work team in Traffic Hours."
+  },
+  {
+    "Words": "Track Protection Officer (Non Traffic Hours)",
+    "Meaning": "A person competent to set up a safe system of work on or near the track for a work team in Non-Traffic Hours."
+  },
+  {
+    "Words": "Track Protection Officer Depot",
+    "Meaning": "A person competent to set up a safe system of work on or near the track for a work team in the Depot."
+  },
+  {
+    "Words": "Track Trained Person",
+    "Meaning": "A person competent to be on or near the track under the protection and control of a Track Protection Officer or Possession Controller."
+  },
+  {
+    "Words": "Traction Power System",
+    "Meaning": "Overhead Catenary System or 3rd Rail and Power Rail including its associated Rectifiers, Inverters, cables and DC HSCB."
+  },
+  {
+    "Words": "Traction Substation",
+    "Meaning": "A Substation with facilities for rectifying the transformed A.C. to D.C."
+  },
+  {
+    "Words": "Traction Voltage",
+    "Meaning": "The nominal voltage (subject to permissible variations) at which the Overhead Catenary System, 3rd Rail and Power Rail equipment is normally fed, i.e. 1500 volts D.C. and 750 volts D.C respectively."
+  },
+  {
+    "Words": "Traffic Bulletin",
+    "Meaning": "A weekly notice published by Operations Planning & Support Department listing special items / activities for the week, including special traction current switching arrangement, special events, alterations to timetables, engineering activities, and notices, etc."
+  },
+  {
+    "Words": "Traffic Controller",
+    "Meaning": "A member of the Operations staff on duty at the OCC responsible for the monitoring and control of the working of trains on the Main Line."
+  },
+  {
+    "Words": "Traffic Hours",
+    "Meaning": "The period between the time traction current is switched on and the time it is switched off for the Main Line."
+  },
+  {
+    "Words": "Trailing Load",
+    "Meaning": "The gross weight of all the Vehicles being hauled by a Locomotive, excluding the weight of the Locomotive."
+  },
+  {
+    "Words": "Trailing Points",
+    "Meaning": "The location at which a converging movement may be made in the direction of travel for the track concerned."
+  },
+  {
+    "Words": "Train",
+    "Meaning": "A group of Vehicles, mechanically coupled together, or a LRV, and permitted to operate under the protection of signalling system."
+  },
+  {
+    "Words": "Train EPIC",
+    "Meaning": "An EPIC who has undergone further training by the SBS TRANSIT Rolling Stock Department on the responsibilities involved in taking charge of work on a train."
+  },
+  {
+    "Words": "Train Movement Controller",
+    "Meaning": "A person qualified to Track Protection Officer (Non-Traffic Hours) and Track Protection Officer (Depot) level who is the sole person to: "
+  },
+  {
+    "Words": "(Maintenance",
+    "Meaning": "•       Give instructions to a driver of a Maintenance Fleet vehicle to move a train within a Possession."
+  },
+  {
+    "Words": "Fleet)",
+    "Meaning": "•       Manage Maintenance Fleet coupling and uncoupling operations in a Possession and in Engineer’s sidings."
+  },
+  {
+    "Words": "Train Number",
+    "Meaning": "A unique identity number for each Electric Train set."
+  },
+  {
+    "Words": "Transformer",
+    "Meaning": "Static apparatus for supplying an alternating current at one voltage when fed with alternating current at a different voltage."
+  },
+  {
+    "Words": "Untrained Person",
+    "Meaning": "A person authorised to be on or near the track only when Trains or Vehicle movement has been stopped, and only during the Non-Traffic Hours or in a possession or in a Non-Automatic Area.  An Untrained Person must be under the protection and control of a Track Protection Officer or Possession Controller."
+  },
+  {
+    "Words": "Vehicle",
+    "Meaning": "Common term for a Locomotive, Wagon, any individual carriage of an Electric Train, MFV, RGV, MWV or on track Machine."
+  },
+  {
+    "Words": "Voltage Tester",
+    "Meaning": "An approved device used in traction voltage system to test if the circuit is live or not."
+  },
+  {
+    "Words": "Wagon",
+    "Meaning": "A Vehicle incapable of self propulsion, used for engineering works."
+  },
+  {
+    "Words": "Well Wagon",
+    "Meaning": "A non-passenger Vehicle that has a lowered central body for the transportation of large objects."
+  },
+  {
+    "Words": "Working Team",
+    "Meaning": "Persons under the direct supervision of an EPIC."
+  },
+  {
+    "Words": "Working Limits",
+    "Meaning": "The Working Limits of a possession define the extremities beyond which people or trains working inside the possession are not permitted to pass."
+  },
+  {
+    "Words": "Works Co-ordinator",
+    "Meaning": "A member of Rolling Stock staff reporting to the CC who:"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Provides engineering advice to the OCC staff"
+  },
+  {
+    "Words": NaN,
+    "Meaning": "•       Co-ordinates the incident recovery in conjunction with the Engineer-In-Charge during a major incident declared by the CC."
+  }
+]

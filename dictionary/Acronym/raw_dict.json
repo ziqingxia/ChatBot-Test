@@ -1,0 +1,1334 @@
+[
+    {
+        "Acronym": "A.C.",
+        "Definition": "Alternating Current"
+    },
+    {
+        "Acronym": "ACB",
+        "Definition": "Air Circuit Breaker"
+    },
+    {
+        "Acronym": "ACM",
+        "Definition": "Asbestos Containing Material"
+    },
+    {
+        "Acronym": "AEIC",
+        "Definition": "Assistant Engineer In Charge"
+    },
+    {
+        "Acronym": "AFC",
+        "Definition": "Automatic Fare Collection"
+    },
+    {
+        "Acronym": "ALARP",
+        "Definition": "As Low As Reasonably Practicable"
+    },
+    {
+        "Acronym": "AM",
+        "Definition": "Automatic Mode"
+    },
+    {
+        "Acronym": "AMS",
+        "Definition": "Access Management System"
+    },
+    {
+        "Acronym": "ASM",
+        "Definition": "Assistant Station Manager"
+    },
+    {
+        "Acronym": "ATAS",
+        "Definition": "Automatic Train Announcement System"
+    },
+    {
+        "Acronym": "ATC",
+        "Definition": "Automatic Train Control"
+    },
+    {
+        "Acronym": "ATO",
+        "Definition": "Automatic Train Operation"
+    },
+    {
+        "Acronym": "ATP",
+        "Definition": "Automatic Train Protection"
+    },
+    {
+        "Acronym": "ATR",
+        "Definition": "Automatic Train Regulation"
+    },
+    {
+        "Acronym": "ATS",
+        "Definition": "Automatic Train Supervision"
+    },
+    {
+        "Acronym": "BB",
+        "Definition": "Bukit Panjang Bound"
+    },
+    {
+        "Acronym": "BCL",
+        "Definition": "Bencoolen Station"
+    },
+    {
+        "Acronym": "BDM",
+        "Definition": "Bendeemer Station"
+    },
+    {
+        "Acronym": "BDN",
+        "Definition": "Bedok North Station"
+    },
+    {
+        "Acronym": "BDR",
+        "Definition": "Bedok Reservoir Station"
+    },
+    {
+        "Acronym": "BFI",
+        "Definition": "Brake Fault Indicator"
+    },
+    {
+        "Acronym": "BFT",
+        "Definition": "Bay Front Station"
+    },
+    {
+        "Acronym": "BGK",
+        "Definition": "Buangkok Station"
+    },
+    {
+        "Acronym": "BGS",
+        "Definition": "Bugis Station"
+    },
+    {
+        "Acronym": "BKP",
+        "Definition": "Bukit Panjang Station"
+    },
+    {
+        "Acronym": "BLBS",
+        "Definition": "Brake Loop By-pass Switch"
+    },
+    {
+        "Acronym": "BMS",
+        "Definition": "Building Management System"
+    },
+    {
+        "Acronym": "BNK",
+        "Definition": "Boon Keng Station"
+    },
+    {
+        "Acronym": "BP",
+        "Definition": "Block Processor"
+    },
+    {
+        "Acronym": "BTN",
+        "Definition": "Botanic Gardens Station"
+    },
+    {
+        "Acronym": "BTW",
+        "Definition": "Beauty World Station"
+    },
+    {
+        "Acronym": "C&S",
+        "Definition": "Communications & Systems"
+    },
+    {
+        "Acronym": "CB",
+        "Definition": "Circuit Breaker"
+    },
+    {
+        "Acronym": "CBI",
+        "Definition": "Computer Based Interlocking"
+    },
+    {
+        "Acronym": "CBN",
+        "Definition": "Communication Backbone Network"
+    },
+    {
+        "Acronym": "CBTC",
+        "Definition": "Communications Based Train Control"
+    },
+    {
+        "Acronym": "CC",
+        "Definition": "Chief Controller"
+    },
+    {
+        "Acronym": "CC(S)",
+        "Definition": "Chief Controller (Station)"
+    },
+    {
+        "Acronym": "CC(T)",
+        "Definition": "Chief Controller (Train)"
+    },
+    {
+        "Acronym": "CCL",
+        "Definition": "Circle Line"
+    },
+    {
+        "Acronym": "CCTV",
+        "Definition": "Closed-circuit Television"
+    },
+    {
+        "Acronym": "CDI",
+        "Definition": "Close Door Indication"
+    },
+    {
+        "Acronym": "CEPAS",
+        "Definition": "Specification for Contactless e-Purse Application - an electronic money smart card"
+    },
+    {
+        "Acronym": "CERm",
+        "Definition": "Communication Equipment Room"
+    },
+    {
+        "Acronym": "CM",
+        "Definition": "Corrective Maintenance"
+    },
+    {
+        "Acronym": "CM",
+        "Definition": "Coded Manual Mode"
+    },
+    {
+        "Acronym": "CMG",
+        "Definition": "Crisis Management Group"
+    },
+    {
+        "Acronym": "CM",
+        "Definition": "Coded Manual Mode"
+    },
+    {
+        "Acronym": "CMS",
+        "Definition": "Central Management System"
+    },
+    {
+        "Acronym": "CNT",
+        "Definition": "China Town Station"
+    },
+    {
+        "Acronym": "COP",
+        "Definition": "Code Of Practice"
+    },
+    {
+        "Acronym": "COC",
+        "Definition": "Communication Controller"
+    },
+    {
+        "Acronym": "COS",
+        "Definition": "Call On Switch"
+    },
+    {
+        "Acronym": "CPU",
+        "Definition": "Central Processor Unit"
+    },
+    {
+        "Acronym": "CQY",
+        "Definition": "Clarke Quay Station"
+    },
+    {
+        "Acronym": "CSC",
+        "Definition": "Contactless Smart Card"
+    },
+    {
+        "Acronym": "CSW",
+        "Definition": "Cashew Station"
+    },
+    {
+        "Acronym": "CSO",
+        "Definition": "Customer Service Officer"
+    },
+    {
+        "Acronym": "CTC",
+        "Definition": "Console to Console (or Cab to Cab) Communication"
+    },
+    {
+        "Acronym": "CTCS",
+        "Definition": "Conventional Train Control System"
+    },
+    {
+        "Acronym": "CW",
+        "Definition": "Civil Work"
+    },
+    {
+        "Acronym": "DBG",
+        "Definition": "Dhoby Ghaut station"
+    },
+    {
+        "Acronym": "DBS",
+        "Definition": "DataBase Server"
+    },
+    {
+        "Acronym": "D.C.",
+        "Definition": "Direct Current"
+    },
+    {
+        "Acronym": "DCC",
+        "Definition": "Depot Control Centre"
+    },
+    {
+        "Acronym": "DCH",
+        "Definition": "Driving Control Handle"
+    },
+    {
+        "Acronym": "DCL",
+        "Definition": "Door Control Loop"
+    },
+    {
+        "Acronym": "DCPB",
+        "Definition": "Door Closing Push Button"
+    },
+    {
+        "Acronym": "DCS",
+        "Definition": "Depot Control System"
+    },
+    {
+        "Acronym": "DCU",
+        "Definition": "Door Control Unit"
+    },
+    {
+        "Acronym": "DE(L)",
+        "Definition": "Door Enable (Left)"
+    },
+    {
+        "Acronym": "DE(R)",
+        "Definition": "Door Enable (Right)"
+    },
+    {
+        "Acronym": "DFB",
+        "Definition": "DC Feeder Bukit Panjang bound"
+    },
+    {
+        "Acronym": "DFX",
+        "Definition": "DC Feeder Expo bound"
+    },
+    {
+        "Acronym": "DIR",
+        "Definition": "Door Interlock Relay"
+    },
+    {
+        "Acronym": "DLBS",
+        "Definition": "Door Loop Bypass Switch"
+    },
+    {
+        "Acronym": "DLP",
+        "Definition": "Defect Liability Period"
+    },
+    {
+        "Acronym": "DLS",
+        "Definition": "Door Lock Switch"
+    },
+    {
+        "Acronym": "DLTS",
+        "Definition": "Direct Line Telephone System"
+    },
+    {
+        "Acronym": "DM",
+        "Definition": "Driving Motor"
+    },
+    {
+        "Acronym": "DMS",
+        "Definition": "Data Management System"
+    },
+    {
+        "Acronym": "DOM",
+        "Definition": "Duty Operations Manager"
+    },
+    {
+        "Acronym": "DOPB",
+        "Definition": "Door Opening Push Button"
+    },
+    {
+        "Acronym": "DOT",
+        "Definition": "Direction of Travel"
+    },
+    {
+        "Acronym": "DRMD",
+        "Definition": "Dynamic Route Map Display"
+    },
+    {
+        "Acronym": "DSM",
+        "Definition": "Depot Shift Manager"
+    },
+    {
+        "Acronym": "DT",
+        "Definition": "Driving Trailer"
+    },
+    {
+        "Acronym": "DTB",
+        "Definition": "DC Tie breaker Bukit Panjang bound"
+    },
+    {
+        "Acronym": "DTC",
+        "Definition": "Depot Traffic Controller"
+    },
+    {
+        "Acronym": "DTL",
+        "Definition": "Downtown Line"
+    },
+    {
+        "Acronym": "DTMF",
+        "Definition": "Dual Tone Multi Frequency"
+    },
+    {
+        "Acronym": "DTN",
+        "Definition": "Downtown Station"
+    },
+    {
+        "Acronym": "DTX",
+        "Definition": "DC Tie breaker Xpo bound"
+    },
+    {
+        "Acronym": "DVA",
+        "Definition": "Digital Voice Announcer"
+    },
+    {
+        "Acronym": "E&M",
+        "Definition": "Electrical & Mechanical"
+    },
+    {
+        "Acronym": "EAD",
+        "Definition": "Emergency Access Device"
+    },
+    {
+        "Acronym": "EBI",
+        "Definition": "Emergency Brake Indicator"
+    },
+    {
+        "Acronym": "ECID",
+        "Definition": "East Coast Integrated Depot"
+    },
+    {
+        "Acronym": "ECS",
+        "Definition": "Environmental Control System"
+    },
+    {
+        "Acronym": "EDD",
+        "Definition": "End Detrainment Door"
+    },
+    {
+        "Acronym": "EED",
+        "Definition": "Emergency Egress Device"
+    },
+    {
+        "Acronym": "EHS",
+        "Definition": "Emergency Handle Switch"
+    },
+    {
+        "Acronym": "EIC",
+        "Definition": "Engineer In Charge"
+    },
+    {
+        "Acronym": "ELC",
+        "Definition": "Electric Line Circuit"
+    },
+    {
+        "Acronym": "EOA",
+        "Definition": "End of Authority"
+    },
+    {
+        "Acronym": "EPAX",
+        "Definition": "Electronic Private Automatic Exchange"
+    },
+    {
+        "Acronym": "EPIC",
+        "Definition": "Engineer's Person-In-Charge"
+    },
+    {
+        "Acronym": "ERD",
+        "Definition": "End Return Door"
+    },
+    {
+        "Acronym": "ESA",
+        "Definition": "Emergency Stop Area"
+    },
+    {
+        "Acronym": "ESS",
+        "Definition": "Emergency Stop Switch"
+    },
+    {
+        "Acronym": "ESP",
+        "Definition": "Emergency Stop Plunger"
+    },
+    {
+        "Acronym": "ETS",
+        "Definition": "Emergency Trip Station"
+    },
+    {
+        "Acronym": "ETSS",
+        "Definition": "Emergency Traction Tripping System"
+    },
+    {
+        "Acronym": "EVR",
+        "Definition": "Event Recorder"
+    },
+    {
+        "Acronym": "FAT",
+        "Definition": "Factory Acceptance Test"
+    },
+    {
+        "Acronym": "FBSS",
+        "Definition": "Fall Back Signalling System"
+    },
+    {
+        "Acronym": "FCN",
+        "Definition": "Fort Canning Station"
+    },
+    {
+        "Acronym": "FM",
+        "Definition": "Facility Management"
+    },
+    {
+        "Acronym": "FMP",
+        "Definition": "Feedback Management Portal"
+    },
+    {
+        "Acronym": "FPS",
+        "Definition": "Fire Protection System"
+    },
+    {
+        "Acronym": "FRP",
+        "Definition": "Farrer Park Station"
+    },
+    {
+        "Acronym": "GAMA",
+        "Definition": "Geographic Automatic Mode Authorisation"
+    },
+    {
+        "Acronym": "GBD",
+        "Definition": "Gali Batu Depot"
+    },
+    {
+        "Acronym": "GGAMA",
+        "Definition": "Global Geographic Automatic Mode Authorisation"
+    },
+    {
+        "Acronym": "GIS",
+        "Definition": "Gas Insulated Switchgear"
+    },
+    {
+        "Acronym": "GLB",
+        "Definition": "Geylang Bahru Station"
+    },
+    {
+        "Acronym": "GND",
+        "Definition": "Ground"
+    },
+    {
+        "Acronym": "GPS",
+        "Definition": "Global Positioning System"
+    },
+    {
+        "Acronym": "GS",
+        "Definition": "General Specification"
+    },
+    {
+        "Acronym": "GST",
+        "Definition": "Goods and Services Tax"
+    },
+    {
+        "Acronym": "GTM",
+        "Definition": "General Ticketing Machine"
+    },
+    {
+        "Acronym": "GWS",
+        "Definition": "Generic Work Station"
+    },
+    {
+        "Acronym": "HAZOP",
+        "Definition": "Hazard & Operability Analysis"
+    },
+    {
+        "Acronym": "HBF",
+        "Definition": "Harbour Front Station"
+    },
+    {
+        "Acronym": "HGN",
+        "Definition": "Hougang Station"
+    },
+    {
+        "Acronym": "HOD",
+        "Definition": "Head of Department"
+    },
+    {
+        "Acronym": "HUM",
+        "Definition": "Hume Station"
+    },
+    {
+        "Acronym": "HV",
+        "Definition": "High Voltage"
+    },
+    {
+        "Acronym": "HVW",
+        "Definition": "Hillview Station"
+    },
+    {
+        "Acronym": "HW",
+        "Definition": "Headwall"
+    },
+    {
+        "Acronym": "ICP",
+        "Definition": "Incident Control Post"
+    },
+    {
+        "Acronym": "ID",
+        "Definition": "Identification / Identity"
+    },
+    {
+        "Acronym": "IMP",
+        "Definition": "Incident Management Plan"
+    },
+    {
+        "Acronym": "IMTE",
+        "Definition": "Inspection, Measuring and Testing Equipment"
+    },
+    {
+        "Acronym": "INF",
+        "Definition": "Infrastructure"
+    },
+    {
+        "Acronym": "IO",
+        "Definition": "Incident Officer"
+    },
+    {
+        "Acronym": "IRJ",
+        "Definition": "Insulated Rail Joint"
+    },
+    {
+        "Acronym": "ISCS",
+        "Definition": "Integrated Supervisory & Control System"
+    },
+    {
+        "Acronym": "ISDN",
+        "Definition": "Integrated Services Digital Network"
+    },
+    {
+        "Acronym": "ISO",
+        "Definition": "International Organisation for Standardisation"
+    },
+    {
+        "Acronym": "IT",
+        "Definition": "Information Technology"
+    },
+    {
+        "Acronym": "ITAMA",
+        "Definition": "Individual Train Automatic Mode Authorisation"
+    },
+    {
+        "Acronym": "ITESS",
+        "Definition": "Illuminated Tunnel Evacuation Signage System"
+    },
+    {
+        "Acronym": "JIMP",
+        "Definition": "Joint Incident Management Plan"
+    },
+    {
+        "Acronym": "JLB",
+        "Definition": "Jalan Besar Station"
+    },
+    {
+        "Acronym": "JMIMC",
+        "Definition": "Joint Major Incident Management Committee"
+    },
+    {
+        "Acronym": "KAP",
+        "Definition": "King Albert Park Station"
+    },
+    {
+        "Acronym": "KCD",
+        "Definition": "Kim Chuan Depot"
+    },
+    {
+        "Acronym": "KCO",
+        "Definition": "Key Contact Officer"
+    },
+    {
+        "Acronym": "KKB",
+        "Definition": "Kaki Bukit Station"
+    },
+    {
+        "Acronym": "kph",
+        "Definition": "Kilometres Per Hour"
+    },
+    {
+        "Acronym": "KV",
+        "Definition": "KiloVolt"
+    },
+    {
+        "Acronym": "KVN",
+        "Definition": "Kovan Station"
+    },
+    {
+        "Acronym": "LAN",
+        "Definition": "Local Area Network"
+    },
+    {
+        "Acronym": "LCX",
+        "Definition": "Leaky Coaxial Cable"
+    },
+    {
+        "Acronym": "LED",
+        "Definition": "Light Emitting Diode"
+    },
+    {
+        "Acronym": "LEW",
+        "Definition": "Licensed Electrical Worker"
+    },
+    {
+        "Acronym": "LMT",
+        "Definition": "Local Management Terminal (PIS related)"
+    },
+    {
+        "Acronym": "LOA",
+        "Definition": "License & Operating Agreement"
+    },
+    {
+        "Acronym": "LRT",
+        "Definition": "Light Rapid Transit"
+    },
+    {
+        "Acronym": "LRV",
+        "Definition": "Light Rail Vehicle"
+    },
+    {
+        "Acronym": "LTA",
+        "Definition": "Land Transport Authority"
+    },
+    {
+        "Acronym": "LTOC",
+        "Definition": "Land Transport Operations Centre"
+    },
+    {
+        "Acronym": "LTI",
+        "Definition": "Little India Station"
+    },
+    {
+        "Acronym": "LV",
+        "Definition": "Low Voltage"
+    },
+    {
+        "Acronym": "MAP",
+        "Definition": "Main Alarm Panel"
+    },
+    {
+        "Acronym": "MCB",
+        "Definition": "Miniature Circuit Breaker"
+    },
+    {
+        "Acronym": "MCCB",
+        "Definition": "Moulded Case Circuit Breaker"
+    },
+    {
+        "Acronym": "MCKS",
+        "Definition": "Manual Control Key Switch"
+    },
+    {
+        "Acronym": "MCO",
+        "Definition": "Maintenance Control Operator"
+    },
+    {
+        "Acronym": "McVOR",
+        "Definition": "Multi-channel Voice Recording"
+    },
+    {
+        "Acronym": "MDT",
+        "Definition": "Mean Downtime"
+    },
+    {
+        "Acronym": "MEWP",
+        "Definition": "Mobile Elevating Work Platform"
+    },
+    {
+        "Acronym": "MFI",
+        "Definition": "Major Fault Indicator"
+    },
+    {
+        "Acronym": "MFT",
+        "Definition": "Multi-Function Terminal"
+    },
+    {
+        "Acronym": "MFV",
+        "Definition": "Multi-Function Vehicle"
+    },
+    {
+        "Acronym": "MI",
+        "Definition": "Motor vehicle Intermediate"
+    },
+    {
+        "Acronym": "MMP",
+        "Definition": "Maintenance Management Plan"
+    },
+    {
+        "Acronym": "MMS",
+        "Definition": "Maintenance Management System"
+    },
+    {
+        "Acronym": "MP",
+        "Definition": "Motor vehicle Pantograph"
+    },
+    {
+        "Acronym": "MPS",
+        "Definition": "MacPherson Station"
+    },
+    {
+        "Acronym": "MR",
+        "Definition": "Mobile Radio"
+    },
+    {
+        "Acronym": "MRB",
+        "Definition": "Modification Review Board"
+    },
+    {
+        "Acronym": "MRT",
+        "Definition": "Mass Rapid Transit"
+    },
+    {
+        "Acronym": "MS",
+        "Definition": "Mode Selector"
+    },
+    {
+        "Acronym": "MTIB",
+        "Definition": "Moving Train Initialisation Beacon"
+    },
+    {
+        "Acronym": "MTR",
+        "Definition": "Mattar Station"
+    },
+    {
+        "Acronym": "NiAP",
+        "Definition": "Non-identified Automatic Protection"
+    },
+    {
+        "Acronym": "NB",
+        "Definition": "North Bound"
+    },
+    {
+        "Acronym": "NEL",
+        "Definition": "North East Line"
+    },
+    {
+        "Acronym": "NEW",
+        "Definition": "Newton Station"
+    },
+    {
+        "Acronym": "NMS",
+        "Definition": "Network Management System"
+    },
+    {
+        "Acronym": "O&M",
+        "Definition": "Operations & Maintenance"
+    },
+    {
+        "Acronym": "OSHA",
+        "Definition": "Operating & Support Hazard Analysis"
+    },
+    {
+        "Acronym": "OCC",
+        "Definition": "Operations Control Centre"
+    },
+    {
+        "Acronym": "OCS",
+        "Definition": "Overhead Catenary System"
+    },
+    {
+        "Acronym": "ODS",
+        "Definition": "Overview Display System"
+    },
+    {
+        "Acronym": "OEM",
+        "Definition": "Original Equipment Manufacturer"
+    },
+    {
+        "Acronym": "OTP",
+        "Definition": "Outram Park Station"
+    },
+    {
+        "Acronym": "PA",
+        "Definition": "Public Address"
+    },
+    {
+        "Acronym": "PABX",
+        "Definition": "Private Automatic Branch Exchange"
+    },
+    {
+        "Acronym": "PBPB",
+        "Definition": "Parking Brake Push Button"
+    },
+    {
+        "Acronym": "PC",
+        "Definition": "Possession Controller"
+    },
+    {
+        "Acronym": "P&C",
+        "Definition": "Planning and Coordination"
+    },
+    {
+        "Acronym": "PCP",
+        "Definition": "Platform Communication Point"
+    },
+    {
+        "Acronym": "PDU",
+        "Definition": "Passenger Display Unit"
+    },
+    {
+        "Acronym": "PEC",
+        "Definition": "Passenger Emergency Communication"
+    },
+    {
+        "Acronym": "PEDC",
+        "Definition": "Platform Edge Door Controller"
+    },
+    {
+        "Acronym": "PFR",
+        "Definition": "Power Facility Regulator"
+    },
+    {
+        "Acronym": "PGL",
+        "Definition": "Punggol Station"
+    },
+    {
+        "Acronym": "PIS",
+        "Definition": "Passenger Information System"
+    },
+    {
+        "Acronym": "PLC",
+        "Definition": "Programmable Logic Controller"
+    },
+    {
+        "Acronym": "PM",
+        "Definition": "Preventive Maintenance"
+    },
+    {
+        "Acronym": "PMN",
+        "Definition": "Promenade Station"
+    },
+    {
+        "Acronym": "PMS",
+        "Definition": "Plant Management System"
+    },
+    {
+        "Acronym": "PPE",
+        "Definition": "Personal Protective Equipment"
+    },
+    {
+        "Acronym": "PS",
+        "Definition": "Particular Specification"
+    },
+    {
+        "Acronym": "PSC",
+        "Definition": "Passenger Service Centre"
+    },
+    {
+        "Acronym": "PSD",
+        "Definition": "Platform Screen Door"
+    },
+    {
+        "Acronym": "PSIL",
+        "Definition": "Public Area PSD Summary Indicator Lamp"
+    },
+    {
+        "Acronym": "PSM",
+        "Definition": "Passenger Service Machine"
+    },
+    {
+        "Acronym": "PTI",
+        "Definition": "Positive Train Identification"
+    },
+    {
+        "Acronym": "PTP",
+        "Definition": "Potong Pasir Station"
+    },
+    {
+        "Acronym": "PTW",
+        "Definition": "Permit-to-Work"
+    },
+    {
+        "Acronym": "Pway",
+        "Definition": "Permanent Way"
+    },
+    {
+        "Acronym": "PWD",
+        "Definition": "Public Works Department"
+    },
+    {
+        "Acronym": "PWM",
+        "Definition": "Pulse Wave Modulation"
+    },
+    {
+        "Acronym": "RB",
+        "Definition": "Re-localisation Beacon"
+    },
+    {
+        "Acronym": "RCCB",
+        "Definition": "Residual Current Circuit Breaker"
+    },
+    {
+        "Acronym": "RCMS",
+        "Definition": "Rail Corrective Maintenance System"
+    },
+    {
+        "Acronym": "RCR",
+        "Definition": "Rochor Station"
+    },
+    {
+        "Acronym": "RGV",
+        "Definition": "Rail Grinding Vehicle"
+    },
+    {
+        "Acronym": "RIMP",
+        "Definition": "Rail Incident Management Plan"
+    },
+    {
+        "Acronym": "RM",
+        "Definition": "Restricted Manual Mode"
+    },
+    {
+        "Acronym": "RMF",
+        "Definition": "Restricted Manual Forward"
+    },
+    {
+        "Acronym": "RMR",
+        "Definition": "Restricted Manual Reverse"
+    },
+    {
+        "Acronym": "RRBC",
+        "Definition": "Rail Relay Bonding Cable"
+    },
+    {
+        "Acronym": "RRT",
+        "Definition": "Rapid Response Team"
+    },
+    {
+        "Acronym": "RRS",
+        "Definition": "Road/Rail Shunter"
+    },
+    {
+        "Acronym": "RST",
+        "Definition": "Rolling Stock"
+    },
+    {
+        "Acronym": "RT",
+        "Definition": "Reception Track"
+    },
+    {
+        "Acronym": "SAV",
+        "Definition": "Sixth Avenue Station"
+    },
+    {
+        "Acronym": "SB",
+        "Definition": "South Bound"
+    },
+    {
+        "Acronym": "SCD",
+        "Definition": "Short Circuiting Device"
+    },
+    {
+        "Acronym": "SCDF",
+        "Definition": "Singapore Civil Defence Force"
+    },
+    {
+        "Acronym": "SCO",
+        "Definition": "Station Controller"
+    },
+    {
+        "Acronym": "SDS",
+        "Definition": "Senior Depot Supervisor"
+    },
+    {
+        "Acronym": "SER",
+        "Definition": "Signalling Equipment Room (DTL)"
+    },
+    {
+        "Acronym": "SER",
+        "Definition": "Serangoon Station (NEL)"
+    },
+    {
+        "Acronym": "SERm",
+        "Definition": "Signalling Equipment Room (NEL)"
+    },
+    {
+        "Acronym": "SFI",
+        "Definition": "Stamford Intake"
+    },
+    {
+        "Acronym": "SFT",
+        "Definition": "Sanction-for-Test"
+    },
+    {
+        "Acronym": "SGB",
+        "Definition": "Sungei Bedok Station"
+    },
+    {
+        "Acronym": "SIG",
+        "Definition": "Signalling"
+    },
+    {
+        "Acronym": "SIM",
+        "Definition": "Safety Inhibited Mode"
+    },
+    {
+        "Acronym": "SingTel",
+        "Definition": "Singapore Telecommunications Limited"
+    },
+    {
+        "Acronym": "SIR",
+        "Definition": "Safety Interlock Relay"
+    },
+    {
+        "Acronym": "SKG",
+        "Definition": "Sengkang Station"
+    },
+    {
+        "Acronym": "SKLRT",
+        "Definition": "Sengkang Light Rapid Transit"
+    },
+    {
+        "Acronym": "SM",
+        "Definition": "Station Manager"
+    },
+    {
+        "Acronym": "SMS",
+        "Definition": "Safety Management System"
+    },
+    {
+        "Acronym": "SMRT",
+        "Definition": "Singapore Mass Rapid Transit"
+    },
+    {
+        "Acronym": "SPF",
+        "Definition": "Singapore Police Force"
+    },
+    {
+        "Acronym": "SPKS",
+        "Definition": "Staff Protection Key Switch"
+    },
+    {
+        "Acronym": "SPLRT",
+        "Definition": "Sengkang and Punggol Light Rapid Transit"
+    },
+    {
+        "Acronym": "SSEP",
+        "Definition": "Safety, Security & Emergency Planning Department"
+    },
+    {
+        "Acronym": "STA",
+        "Definition": "Section Traction Authorisation"
+    },
+    {
+        "Acronym": "STIB",
+        "Definition": "Stationary Train Initialisation Beacon"
+    },
+    {
+        "Acronym": "STIS",
+        "Definition": "Station Travel Information System"
+    },
+    {
+        "Acronym": "STV",
+        "Definition": "Stevens Station"
+    },
+    {
+        "Acronym": "SVS",
+        "Definition": "Service Support"
+    },
+    {
+        "Acronym": "SWC",
+        "Definition": "System Wide Contractors"
+    },
+    {
+        "Acronym": "T/C",
+        "Definition": "Track Circuit"
+    },
+    {
+        "Acronym": "TAM",
+        "Definition": "Tampines Station"
+    },
+    {
+        "Acronym": "TAR",
+        "Definition": "Track Access Request"
+    },
+    {
+        "Acronym": "TB",
+        "Definition": "Traffic Bulletin"
+    },
+    {
+        "Acronym": "TC",
+        "Definition": "Traffic Controller"
+    },
+    {
+        "Acronym": "TCC",
+        "Definition": "Track Circuit Clip"
+    },
+    {
+        "Acronym": "TDMS",
+        "Definition": "Train Data Management System"
+    },
+    {
+        "Acronym": "TDS",
+        "Definition": "Train Describer System"
+    },
+    {
+        "Acronym": "TER",
+        "Definition": "Telecommunication Equipment Room (DTL)"
+    },
+    {
+        "Acronym": "TERm",
+        "Definition": "Telecommunication Equipment Room (NEL)"
+    },
+    {
+        "Acronym": "TETRA",
+        "Definition": "Terrestrial Trunk Radio System, generally refer to the handheld units"
+    },
+    {
+        "Acronym": "TIMS",
+        "Definition": "Train Integrated Management System"
+    },
+    {
+        "Acronym": "TKK",
+        "Definition": "Tan Kah Kee Station"
+    },
+    {
+        "Acronym": "TLA",
+        "Definition": "Telok Ayer Station"
+    },
+    {
+        "Acronym": "TMC",
+        "Definition": "Train Movement Controller"
+    },
+    {
+        "Acronym": "TMC (MF)",
+        "Definition": "Train Movement Controller (Maintenance Fleet)"
+    },
+    {
+        "Acronym": "TOA",
+        "Definition": "Track Occupation Authority"
+    },
+    {
+        "Acronym": "TORR",
+        "Definition": "Train Operated Route Release"
+    },
+    {
+        "Acronym": "TPE",
+        "Definition": "Tampines East Station"
+    },
+    {
+        "Acronym": "TPO",
+        "Definition": "Track Protection Officer"
+    },
+    {
+        "Acronym": "TPO (D)",
+        "Definition": "Track Protection Officer Depot"
+    },
+    {
+        "Acronym": "TPO (T)",
+        "Definition": "Track Protection Officer Traffic Hours"
+    },
+    {
+        "Acronym": "TPO (NT)",
+        "Definition": "Track Protection Officer Non Traffic Hours"
+    },
+    {
+        "Acronym": "TPW",
+        "Definition": "Tampines West Station"
+    },
+    {
+        "Acronym": "TransCom",
+        "Definition": "Police Transportation Command"
+    },
+    {
+        "Acronym": "TSFB",
+        "Definition": "Tai Seng Facility Building"
+    },
+    {
+        "Acronym": "TSIL",
+        "Definition": "Trackside Summary Indicator Lamp"
+    },
+    {
+        "Acronym": "TSR",
+        "Definition": "Temporary Speed Restriction"
+    },
+    {
+        "Acronym": "TT",
+        "Definition": "Test Track"
+    },
+    {
+        "Acronym": "TTC",
+        "Definition": "Test Track Controller"
+    },
+    {
+        "Acronym": "TTCR",
+        "Definition": "Test Track Control Room"
+    },
+    {
+        "Acronym": "TTIS",
+        "Definition": "Train borne Travel Information System"
+    },
+    {
+        "Acronym": "TTP",
+        "Definition": "Track Trained Person"
+    },
+    {
+        "Acronym": "TVF",
+        "Definition": "Tunnel Ventilation Fan"
+    },
+    {
+        "Acronym": "TVSS",
+        "Definition": "Train borne Video Surveillance System"
+    },
+    {
+        "Acronym": "TW",
+        "Definition": "Tailwall"
+    },
+    {
+        "Acronym": "TX",
+        "Definition": "Transformer"
+    },
+    {
+        "Acronym": "UBI",
+        "Definition": "Ubi Station"
+    },
+    {
+        "Acronym": "UPC",
+        "Definition": "Upper Changi Station"
+    },
+    {
+        "Acronym": "UPS",
+        "Definition": "Uninterruptable power supply system"
+    },
+    {
+        "Acronym": "VMS",
+        "Definition": "Visitor Management System"
+    },
+    {
+        "Acronym": "VPIS",
+        "Definition": "Visual Passenger Information System"
+    },
+    {
+        "Acronym": "VSS",
+        "Definition": "Video Surveillance System"
+    },
+    {
+        "Acronym": "WC",
+        "Definition": "Works Coordinator"
+    },
+    {
+        "Acronym": "WLH",
+        "Definition": "Woodleigh Station"
+    },
+    {
+        "Acronym": "WO",
+        "Definition": "Work Order"
+    },
+    {
+        "Acronym": "WUPB",
+        "Definition": "Wake Up Push Button"
+    },
+    {
+        "Acronym": "XB",
+        "Definition": "Expo Bound"
+    },
+    {
+        "Acronym": "XLN",
+        "Definition": "Xilin Station"
+    },
+    {
+        "Acronym": "XPESS",
+        "Definition": "Cross Passage Evacuation Signage System"
+    },
+    {
+        "Acronym": "XPO",
+        "Definition": "Expo Station"
+    }
+]

@@ -1,0 +1,135 @@
+{
+    "scenarios": [
+      {
+        "id": 1,
+        "title": "Basic Radio Check",
+        "introduction": {
+          "role_user": "Track Protection Officer (TPO)",
+          "role_control": "Traffic Controller (TC)",
+          "description": "Before any operation, you must confirm that the radio communication is working properly with the TC. This is called a Radio Check."
+        },
+        "dialogue_example": [
+          {"control": "TC", "utterance": "Main Line Zero One, Send, over"},
+          {"user": "TPO Alex", "utterance": "TPO Alex, Radio Check, over"},
+          {"control": "TC", "utterance": "Main Line Zero One, Radio Check loud and clear, over"},
+          {"user": "TPO Alex", "utterance": "TPO Alex, Radio Check OK, out"}
+        ],
+        "key_points": [
+          "Always state your call sign, e.g., 'TPO Alex'.",
+          "Use 'over' to hand over the conversation and 'out' to end it."
+        ],
+        "consequences": "Failing to identify yourself or skipping 'over/out' may confuse the controller or block the channel for other important communications."
+      },
+      {
+        "id": 2,
+        "title": "Track Access Request",
+        "introduction": {
+          "role_user": "Track Protection Officer (TPO)",
+          "role_control": "Traffic Controller (TC)",
+          "description": "You want to access the mainline track for inspection. You must first request permission from the TC. If the Overhead Catenary System (OCS) is live, access will be denied."
+        },
+        "dialogue_example": [
+          {"control": "TC", "utterance": "Main Line Zero Two, Send, over"},
+          {"user": "TPO Kevin", "utterance": "TPO Kevin, Request access to track, over"},
+          {"control": "TC", "utterance": "Main Line Zero Two, Negative. OCS is still live, over"},
+          {"user": "TPO Kevin", "utterance": "TPO Kevin, Wilco, out"}
+        ],
+        "key_points": [
+          "Use 'Request access to track' to state your intent.",
+          "Use 'Wilco' to acknowledge and agree to comply with instructions.",
+          "Start with your call sign."
+        ],
+        "consequences": "Entering the track without permission could result in electrocution from live OCS or being hit by an oncoming train."
+      },
+      {
+        "id": 3,
+        "title": "Read Back Confirmation",
+        "introduction": {
+          "role_user": "Track Protection Officer (TPO)",
+          "role_control": "Depot Traffic Controller (DTC)",
+          "description": "You are requesting access to the depot wash track. The DTC denies your request and requires you to Read Back (repeat) the message to confirm understanding."
+        },
+        "dialogue_example": [
+          {"control": "Depot 0", "utterance": "Depot Zero, Send, over"},
+          {"user": "TPO Lee", "utterance": "TPO Lee, Request access to Daily Wash Track, over"},
+          {"control": "Depot 0", "utterance": "Depot Zero, Negative. There is a train at that track. Do not access. Read Back Message, over"},
+          {"user": "TPO Lee", "utterance": "TPO Lee, I read back your message: There is a train at the Daily Wash track. I am not allowed to access, over"},
+          {"control": "Depot 0", "utterance": "Depot Zero, Correct, over"},
+          {"user": "TPO Lee", "utterance": "TPO Lee, Roger, out"}
+        ],
+        "key_points": [
+          "Repeat (Read Back) critical information to confirm understanding.",
+          "Use 'I read back' to indicate repetition.",
+          "Use 'Roger' to acknowledge messages."
+        ],
+        "consequences": "Not performing a proper Read Back may lead to miscommunication, potentially causing collisions or accidents."
+      },
+      {
+        "id": 4,
+        "title": "Location Reporting",
+        "introduction": {
+          "role_user": "Track Protection Officer (TPO)",
+          "role_control": "Traffic Controller (TC)",
+          "description": "You need to report your current station location to the TC for coordination and safety monitoring."
+        },
+        "dialogue_example": [
+          {"control": "TC", "utterance": "Main Line Zero One, Send, over"},
+          {"user": "TPO John", "utterance": "TPO John, I am at Station Two Zero, over"},
+          {"control": "TC", "utterance": "Main Line Zero One, Roger, over"},
+          {"user": "TPO John", "utterance": "TPO John, out"}
+        ],
+        "key_points": [
+          "State numbers digit by digit, e.g., 'Two Zero' instead of 'Twenty'.",
+          "Keep messages short and structured (identity + information)."
+        ],
+        "consequences": "Incorrect or unclear location reporting may cause wrong train dispatching or unsafe operational decisions."
+      },
+      {
+        "id": 5,
+        "title": "Fault Reporting",
+        "introduction": {
+          "role_user": "Track Protection Officer (TPO)",
+          "role_control": "Traffic Controller (TC)",
+          "description": "You detect an abnormal Platform Screen Door (PSD). You must report the fault and confirm that TC understands the issue."
+        },
+        "dialogue_example": [
+          {"control": "TC", "utterance": "Main Line Zero Two, Send, over"},
+          {"user": "TPO Sam", "utterance": "TPO Sam, Platform Screen Door number four is closing slowly, over"},
+          {"control": "TC", "utterance": "Main Line Zero Two, Please confirm Platform Screen Door number four is closing slowly, over"},
+          {"user": "TPO Sam", "utterance": "TPO Sam, That is correct, over"},
+          {"control": "TC", "utterance": "Main Line Zero Two, Monitor for the next two trains, over"},
+          {"user": "TPO Sam", "utterance": "TPO Sam, Wilco, out"}
+        ],
+        "key_points": [
+          "Provide specific details about the fault (what and where).",
+          "Use 'That is correct' for confirmation.",
+          "Close the conversation with 'Wilco' when instructed."
+        ],
+        "consequences": "Vague or incomplete fault reports may leave unsafe equipment in operation, risking passenger safety."
+      },
+      {
+        "id": 6,
+        "title": "Receiving TOA (Track Occupation Authority)",
+        "introduction": {
+          "role_user": "Track Protection Officer (TPO)",
+          "role_control": "Traffic Controller (TC)",
+          "description": "You are receiving a Track Occupation Authority (TOA) number from TC. You must repeat both the TOA number and callback time to confirm accuracy."
+        },
+        "dialogue_example": [
+          {"control": "TC", "utterance": "Main Line Zero Two, your TOA number is 2008-00256, over"},
+          {"user": "TPO Ali", "utterance": "TPO Ali, my TOA number is 2008-00256, over"},
+          {"control": "TC", "utterance": "Main Line Zero Two, that is correct. TOA issued time is 0115 hrs, Call Back time is 0415 hrs, over"},
+          {"user": "TPO Ali", "utterance": "TPO Ali, I read back, TOA issued time is 0115 hrs and Call Back time is 0415 hrs, over"},
+          {"control": "TC", "utterance": "Main Line Zero Two, Positive, you may proceed, over"},
+          {"user": "TPO Ali", "utterance": "TPO Ali, Roger, out"}
+        ],
+        "key_points": [
+          "Read back all critical information (TOA number and times).",
+          "State numbers digit by digit (e.g., 0115 as 'Zero One One Five').",
+          "Confirm with 'Roger' when information is correct."
+        ],
+        "consequences": "Incorrect TOA or callback time may lead to control errors, such as restoring power or routing trains onto a track where work is ongoing."
+      }
+    ]
+  }
+  

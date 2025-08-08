@@ -1,0 +1,17 @@
+[
+    {
+        "role": "user",
+        "content": "INPUT PROMPT:\nKendrik, this is TPO Lim message, over.",
+        "model": "gpt-4o"
+    },
+    {
+        "role": "user",
+        "content": "INPUT PROMPT:\nTPO Lim, Radio Check, over.",
+        "model": "gpt-4o"
+    },
+    {
+        "role": "user",
+        "content": "INPUT PROMPT:\nTPO Lim, Radio Check OK. out.",
+        "model": "gpt-4o"
+    }
+]

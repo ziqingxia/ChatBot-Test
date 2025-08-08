@@ -1,0 +1,42 @@
+[
+  {
+    "Catch Phrases": "\"Line Clear\"",
+    "Meaning": "A message given to the Traffic Controller confirming that it is safe for traction current to be switched on and/or train services to restart after engineering work has been carried out on a section of the Main Line, or after an operating incident where staff or passengers have been on the track."
+  },
+  {
+    "Catch Phrases": "\"Proceed with Caution\"",
+    "Meaning": "Used to advise train operators to move forward carefully, typically in situations where there may be hazards or reduced visibility."
+  },
+  {
+    "Catch Phrases": "\"Track Occupation Authority\" (TOA)",
+    "Meaning": "A document that contains all the details including electrical isolations, given by the Traffic Controller to a Track Protection Officer or a Possession Controller for accessing the track."
+  },
+  {
+    "Catch Phrases": "\"Track Circuit Failure\"",
+    "Meaning": "Indicates a malfunction in the track circuitry system, which can affect signalling and track occupancy detection."
+  },
+  {
+    "Catch Phrases": "Track access",
+    "Meaning": "Accessing into an area which is on or near the track."
+  },
+  {
+    "Catch Phrases": "Line Clear message",
+    "Meaning": "A message given to the Traffic Controller confirming that it is safe for traction current to be switched on and/or train services to restart after engineering work has been carried out on a section of the Main Line, or after an operating incident where staff or passengers have been on the track."
+  },
+  {
+    "Catch Phrases": "Point machine detection",
+    "Meaning": "Electro-mechanical process by which points are proved in the direction set."
+  },
+  {
+    "Catch Phrases": "Surrender TOA",
+    "Meaning": "Completion of work and ready to give line clear message."
+  },
+  {
+    "Catch Phrases": "Call-back time ",
+    "Meaning": "The latest time by which the Track Protection Officer or the Possession Controller must call back the OCC/DCC to surrender his Track Occupation Authority when working on or near the mainline track in Non-Traffic hours."
+  },
+  {
+    "Catch Phrases": "Request to access ",
+    "Meaning": "Refer to track access"
+  }
+]

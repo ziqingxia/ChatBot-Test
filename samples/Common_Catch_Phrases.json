@@ -1,0 +1,82 @@
+[
+  {
+    "Catch Phrases": "\"Roger\"",
+    "Meaning": "To indicate that a message has been received message and understood. "
+  },
+  {
+    "Catch Phrases": "\"Correct\" or \"Positive\"",
+    "Meaning": "To indicate that a message has been correctly received."
+  },
+  {
+    "Catch Phrases": "\"Say Again\"",
+    "Meaning": "When used by receiver, to request the sender to repeat the message (“Say again last message”) or when used by the sender to repeat / emphasise the message (“I Say again”)"
+  },
+  {
+    "Catch Phrases": "\"Wilco\" (short for \"Will Comply”)",
+    "Meaning": "To indicate that a message has been received, understood, and will be acted upon (short form of “will comply”) "
+  },
+  {
+    "Catch Phrases": "\"Wait\"",
+    "Meaning": "To indicate a pause in a message"
+  },
+  {
+    "Catch Phrases": "\"Difficult\" ",
+    "Meaning": "To indicate that the signal received is weak during radio check"
+  },
+  {
+    "Catch Phrases": "\"All stations\"",
+    "Meaning": "A To indicate that a collective call is being made to all radio stations in the same talk group"
+  },
+  {
+    "Catch Phrases": "\"Emergency, Emergency\"",
+    "Meaning": "To indicate an emergency message"
+  },
+  {
+    "Catch Phrases": "\"Figure\" ",
+    "Meaning": "To preface figures to be announced individually"
+  },
+  {
+    "Catch Phrases": "\"_ _ _ _ hrs\"",
+    "Meaning": "24 hours time format"
+  },
+  {
+    "Catch Phrases": "\"Message\"",
+    "Meaning": "To indicate that a message is to be sent"
+  },
+  {
+    "Catch Phrases": "\"Okay\"",
+    "Meaning": "To indicate that the signal received is okay during radio check"
+  },
+  {
+    "Catch Phrases": "\"Out\" ",
+    "Meaning": "To indicate at the end of a message, that a reply is not required, and signifies the end of a call"
+  },
+  {
+    "Catch Phrases": "\"Over\"",
+    "Meaning": "To indicate at the end of the message and that a reply is required"
+  },
+  {
+    "Catch Phrases": "\"Radio check\" ",
+    "Meaning": "To signify the intention to check the quality of radio message transmitted and received"
+  },
+  {
+    "Catch Phrases": "\"Read back message\"",
+    "Meaning": "Caller uses this to indicate that a message must be repeated by the receiver to ensure it has been received"
+  },
+  {
+    "Catch Phrases": "\"Send\"",
+    "Meaning": "To indicate readiness to receive a message"
+  },
+  {
+    "Catch Phrases": "\"I Spell\"",
+    "Meaning": "To preface the words to be spelt in Phonetic Alphabet"
+  },
+  {
+    "Catch Phrases": "\"Wrong\" or \"Negative\"",
+    "Meaning": "To indicate that a message has been incorrectly received"
+  },
+  {
+    "Catch Phrases": " \"Decimal\"",
+    "Meaning": "To indicate ‘.' within a string of digits"
+  }
+]

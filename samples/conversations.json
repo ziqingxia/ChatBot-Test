@@ -1,0 +1,540 @@
+[
+  {
+    "id": 1,
+    "event": "User radio check with OCC",
+    "description": "{TPO_NAME} conducts Radio Check with Traffic Controller using Individual Call. ({TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}…....)",
+    "conversation": [
+      {"users": "{TPO_NAME}", "utterance": "…**//..  unrecognised chatter "},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, Send over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, Radio Check, over."},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, Radio Check loud and clear, over."},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, Radio Check OK, out."},
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 2,
+    "event": "User radio check with one another person (one another)",
+    "description": "{TPO_NAME} conducts Radio Check with his Partner, {PARTNER_NAME} using Group Call. ({TPO_NAME} selects the appropriate Group Channel, press the PTT button …..)",
+    "conversation": [
+      {"users": "{TPO_NAME}", "utterance": "{PARTNER_NAME}, this is {TPO_NAME} message, over."},
+      {"control": "{PARTNER_NAME}", "utterance": "{PARTNER_NAME}, send, over."},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, Radio Check, over."},
+      {"control": "{PARTNER_NAME}", "utterance": "{PARTNER_NAME}, Radio Check OK, over."},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, Radio Check OK. out."},
+      {"control": "{PARTNER_NAME}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 3,
+    "event": "User request for Track Access from TC",
+    "description": "{TPO_NAME} calls {CONTROL_CENTER} to request for Track Access using Individual Calls ( {CONTROL_CENTER} responded on {CONTROL_CENTER}); and in this case request is denied, as OCS is still live.",
+    "conversation": [
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, Send, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, Can I access the tracks, over"},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, Negative. OCS is still live, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, Wilco, out"},
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 4,
+    "event": "User request for Access to Depot Wash Plant Track.",
+    "description": "{TPO_NAME} calls {DEPOT_CONTROL} to request for Track Access  ( {TPO_NAME} activates the TETRA radio number of {DEPOT_CONTROL}....)",
+    "conversation": [
+      {"control": "{DEPOT_CONTROL}", "utterance": "{DEPOT_CONTROL}, Send, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, request access to Daily Wash Track, over"},
+      {"control": "{DEPOT_CONTROL}", "utterance": "{DEPOT_CONTROL}, Negative. There is a train at that track. Do not access. Read Back Message, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, I Read Back your Message, there is a train at the Daily Wash track. I am not allowed to access, over"},
+      {"control": "{DEPOT_CONTROL}", "utterance": "{DEPOT_CONTROL}, correct, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, Roger, out"},
+      {"control": "{DEPOT_CONTROL}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 5,
+    "event": "User receiving TOA from TC",
+    "description": "{CONTROL_CENTER} calls {TPO_NAME} to issue TOA Number. ( {CONTROL_CENTER} activates the TETRA radio number of {TPO_NAME}....)",
+    "conversation": [
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, is TOA ready?send, over"},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, are you ready for your TOA, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, I am ready for my TOA, over"},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, your TOA number is {TOA_NUMBER}, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, my TOA number is {TOA_NUMBER}, over"},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, that is correct. TOA issued time is {TIME}. Call Back time is {TIME} hrs over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, I read back, TOA issued time is {TIME}. And Call Back time is {TIME}, over"},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, positive, you may proceed with your work, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, Roger out"},
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 6,
+    "event": "TPO calls TC to surrender his TOA.",
+    "description": "{TPO_NAME} calls {CONTROL_CENTER} to surrender his TOA after completion of work. (Non Traffic Hours Track Access and {TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}…....)",
+    "conversation": [
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, Send, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, I have completed my work and want to surrender my TOA, over"},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, please proceed with your Line Clear message, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, All staff, material and equipment are off the track and tunnel and it is safe for train to run. I surrender my TOA {TOA_NUMBER}, over"},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, Line Clear Message Acknowledged, TOA {TOA_NUMBER} surrendered at {TIME}, over"},
+      {"users": "{TPO_NAME}", "utterance": "{TPO_NAME}, TOA surrendered at {TIME}, over"},
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, that is correct, out"},
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 7,
+    "event": "Radio calls to TC to report fault.",
+    "description": "{STATION} {SM} (Station Manager) calls {CONTROL_CENTER} to report PSD fault using Individual Call. ({STATION} ASM activates the TETRA radio number of {CONTROL_CENTER}…....)",
+    "conversation": [
+      {"control": "{CONTROL_CENTER}", "utterance": "{CONTROL_CENTER}, Send over"},
+      {"users": "{STATION}", "utterance": "{STATION} {SM}, South Bound Platform PSD number {PSD_NUMBER} is observed closing very slowly, over"},
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 8,
+    "event": "Signal Technician calls TC to Confirm Point Position on GWS signalling system.",
+    "description": "Signal Technician, {TPO_NAME}, calls {CONTROL_CENTER} to confirm Point Machine Detection on GWS after Point Machine repair. ( {TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}…....)",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, send over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, please confirm the position of Point {POINT_NUMBER} on your GWS over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Point {POINT_NUMBER} is at Normal position on my GWS. over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, Point {POINT_NUMBER} is at Reverse position on your GWS over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Negative. I Say Again. Point {POINT_NUMBER} is at Normal position on my GWS over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, Point {POINT_NUMBER} is at Normal position on your GWS over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, that is correct, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, I request to set Point {POINT_NUMBER} to Manual Mode, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, you are authorised to set Point {POINT_NUMBER} to Manual mode, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, Point {POINT_NUMBER} set to Manual Mode now. Nothing further, out"
+      },
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 9,
+    "event": "Depot TC Calls to inform SPKS Removal",
+    "description": "Depot TC calls {TPO_NAME} to inform SPKS has been removed. ( {DEPOT_CONTROL} activates the TETRA radio number of {TPO_NAME}....)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, send over"
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, SPKS Zone {ZONE_NUMBER} is removed at {TIME}hours, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, I read back, SPKS Zone {ZONE_NUMBER} is removed at {TIME} hours, over"
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, that is correct. You may proceed with your work, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, Roger, out"
+      },
+      {"control": "{DEPOT_CONTROL}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 10,
+    "event": "TPO Calls TC before Removing SPKS SP401 (at PTP North Bound Head Wall)",
+    "description": "P-Way Technician, {TPO_NAME}, calls {CONTROL_CENTER} for authorisation to operate SPKS before accessing onto the tracks.( {TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}....)",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, send over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, I am at {LOCATION}. May I remove SPKS {SPKS_NUMBER}, over?"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, You may proceed to remove SPKS {SPKS_NUMBER} now, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, SPKS {SPKS_NUMBER} removed, can you confirm SPKS {SPKS_NUMBER} removal on your GWS, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, confirmed SPKS {SPKS_NUMBER} removed at {TIME} hrs TOA number {TOA_NUMBER}, Time TOA issued {TIME} hrs, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, SPKS {SPKS_NUMBER} removed at {TIME} hrs TOA number {TOA_NUMBER}, Time TOA issued {TIME} hrs, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, positive, you may proceed with your work, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, Roger out"
+      },
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 11,
+    "event": "TC talk to CSO to impose 20 kph for Tunnel Walkway Procedure",
+    "description": "Traffic Controller ({CONTROL_CENTER}) imposed 20 kph for tunnel walkway procedure, call {CSO_NAME} ({TRAIN_CAR}) to verify Target Speed. {CONTROL_CENTER} key in {TRAIN_CAR} Tetra Radio ID and depress PTT, {CSO_NAME} Tetra radio alert sounded ….",
+    "conversation": [
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, send over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Please proceed to the front DT Driving Console, over"
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, Proceeding now to front DT, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Once you reach the front DT you are authorised to open the Console Cover, over"
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, Roger, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, nothing further, out"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, send over"
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, I am now at the front DT, driving console cover opened, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Confirm the Target Speed, over"
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, The Target Speed is {SPEED} kph, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Now you can close the driving console cover, over"
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, Wilco, out"
+      },
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 12,
+    "event": "Train (Car 45) overrun China Town Station in AM mode, CSO request permission to be authorised to set-back train doors to PSD.",
+    "description": "Train ({TRAIN_CAR}) overrun {STATION} station in AM, {CSO_NAME} onboard call {CONTROL_CENTER} …. {CSO_NAME} key in {CONTROL_CENTER} Tetra ID and depress PTT… {CONTROL_CENTER} radio alert sounded…..",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Send, over"
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, Overrun {STATION} South Bound Platform, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Confirm that the train did not overrun the set-back limit, marker board, over"
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, Train did not overrun the set-back limit, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Read Back Message, open the driving console, and you are authorise to change to RMR Romeo Mike Romeo set-back to align train doors with the PSD, over"
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, I Read Back, Authorised to open driving console cover, change to RMR Romeo Mike Romeo and set-back to align train doors with PSD, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, Positive, over"
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, Roger, out"
+      },
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 13,
+    "event": "Regular Track Protection Task",
+    "description": "",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, send, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, we're deployed for track inspection on the northbound track between {STATION_1} station and {STATION_2} station, over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, noted between that you are carrying out track inspection on the northbound track between {STATION_1} station and {STATION_2} station. Are you in position, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, positive, currently at {STATION_1} station, over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, roger that, are you ready for your TOA, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, positive, I am ready for my TOA, over."
+      },
+      {
+        "control": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, my TOA number is {TOA_NUMBER}, time issued is {TIME}hrs and call back time is {TIME}hrs, over."
+      },
+      {
+        "users": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, that is correct, you may proceed with your track access, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, roger out."
+      },
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 14,
+    "event": "Emergency Situation",
+    "description": "",
+    "conversation": [
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "Emergency, Emergency, {DEPOT_CONTROL}, this is {TRAIN_CAR} at track {TRACK_NAME}. Rail crack spotted near point {POINT_NUMBER}, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, read back message, stop your train immediately and standby for further instructions, over."
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, I read back message, train stopped, standing by for further instructions, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, roger, wait out."
+      },
+      {"control": "{DEPOT_CONTROL}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 15,
+    "event": "Passenger on board train requires medical assistance",
+    "description": "",
+    "conversation": [
+      {
+        "users": "{STATION} {SM}",
+        "utterance": "{STATION} {SM}, send over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, passenger onboard {TRAIN_CAR} approaching your northbound platform {PSD_NUMBER} requires assistance, over."
+      },
+      {
+        "users": "{STATION} {SM}",
+        "utterance": "{STATION} {SM}, proceeding to my northbound platform {PSD_NUMBER}, over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, roger out."
+      },
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 16,
+    "event": "Train Movement",
+    "description": "",
+    "conversation": [
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, send over."
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, ready for movement, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, roger, read back message, route has been set from {ROUTE_FROM} to {ROUTE_TO}, over."
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, I read back message, route has been set from {ROUTE_FROM} to {ROUTE_TO}, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, correct, read back message, you are to stop short before change of end marker at {ROUTE_TO}, over."
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, I read back message, I am to stop short before change of end marker at {ROUTE_TO}, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, correct, read back message, you are now authorised to put your mode selector to Charlie Mike, over."
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, I read back message, I am now authorised to put my mode selector to Charlie Mike, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, correct, you may now proceed with your movement in Charlie Mike, over."
+      },
+      {
+        "users": "{TRAIN_CAR}",
+        "utterance": "{TRAIN_CAR}, wilco out."
+      },
+      {"control": "{DEPOT_CONTROL}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 17,
+    "event": "Clarification of message",
+    "description": "",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, send over."
+      },
+      {
+        "users": "{STATION} {SM}",
+        "utterance": "{STATION} {SM}, requesting for am......(message distorted), over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, difficult, say again your last message, over."
+      },
+      {
+        "users": "{STATION} {SM}",
+        "utterance": "{STATION} {SM}, I say again, requesting for ambulance assistance, over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "{CONTROL_CENTER}, roger, will activate ambulance to your location, over."
+      },
+      {
+        "users": "{STATION} {SM}",
+        "utterance": "{STATION} {SM}, roger out."
+      },
+      {"control": "{CONTROL_CENTER}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  },
+  {
+    "id": 18,
+    "event": "TPO requesting for point detection test",
+    "description": "",
+    "conversation": [
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, send over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, requesting point detection test for point {POINT_NUMBER}, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, roger, all personnel to stand clear away from point, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, roger, all personnel are standing clear away from point, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, roger, throwing point {POINT_NUMBER} to Normal position now, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, point {POINT_NUMBER} now at Normal position, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, roger, throwing point {POINT_NUMBER} to Reverse position now, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, point {POINT_NUMBER} now at Reverse position, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, roger, final throw, throwing point {POINT_NUMBER} to Normal position, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, point {POINT_NUMBER} now at Normal position, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, roger, control of point {POINT_NUMBER} handed over back to me at {TIME}hrs, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "{TPO_NAME}, control of point {POINT_NUMBER} handed over back to you at {TIME}hrs, over."
+      },
+      {
+        "control": "{DEPOT_CONTROL}",
+        "utterance": "{DEPOT_CONTROL}, positive, nothing further, out."
+      },
+      {"control": "{DEPOT_CONTROL}", "utterance": "You have done responded to the SOP correctly. You have reached the end of the conversation"}
+    ]
+  }
+]

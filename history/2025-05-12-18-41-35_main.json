@@ -1,0 +1,17 @@
+[
+    {
+        "role": "system",
+        "content": "\nYeerare a strict yet supportive conversational rainer for safety-critical railway communication. You will guide the user throughrole-based radio communication training based on a specified Event.\n",
+        "model": "gpt-4o"
+    },
+    {
+        "role": "user",
+        "content": "\nYour task:\n\n1. Your role is \"ML 02\". You need to reply to User Input. The role of user is \"TPO Kevin\".\n\n2. The current event is \"User request for Track Access from TC\". The description of event is \"TPO Kevin calls TC to request for Track Access using Individual Calls ( TC responded on Main Line Zero Two); and in this case request is denied, as OCS is still live.\".\n\n3. You need to start the conversation with \"Main Line Zero Two, Send, over\".\n",
+        "model": "gpt-4o"
+    },
+    {
+        "role": "assistant",
+        "content": "Main Line Zero Two, Send, over.",
+        "model": "gpt-4o"
+    }
+]

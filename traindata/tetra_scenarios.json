@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "event": "User radio check with OCC",
+    "description": "TPO Tan conducts Radio Check with Traffic Controller using Individual Call. ( TPO Tan activates the TETRA radio number of Main Line Zero One\u2026....)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "\u2026**//..  unrecognised chatter"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Send over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Tan, Radio Check, over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Radio Check loud and clear, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Tan, Radio Check OK, out."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "event": "User radio check with OCC",
+    "description": "TPO Kevin conducts Radio Check with Traffic Controller using Individual Call. ( TPO Kevin activates the TETRA radio number of Main Line Zero Two\u2026....)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "\u2026**//..  unrecognised chatter"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Send over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Kevin, Radio Check, over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Radio Check loud and clear, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Kevin, Radio Check OK, out."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "event": "User radio check with OCC",
+    "description": "TPO Ho conducts Radio Check with Traffic Controller using Individual Call. ( TPO Ho activates the TETRA radio number of Main Line Zero Two\u2026....)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "\u2026**//..  unrecognised chatter"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Send over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ho, Radio Check, over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Radio Check loud and clear, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ho, Radio Check OK, out."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "event": "User radio check with OCC",
+    "description": "TPO Zul conducts Radio Check with Traffic Controller using Individual Call. ( TPO Zul activates the TETRA radio number of Main Line Zero One\u2026....)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "\u2026**//..  unrecognised chatter"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Send over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Zul, Radio Check, over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Radio Check loud and clear, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Zul, Radio Check OK, out."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "event": "User radio check with OCC",
+    "description": "TPO Ali conducts Radio Check with Traffic Controller using Individual Call. ( TPO Ali activates the TETRA radio number of Main Line Zero One\u2026....)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "\u2026**//..  unrecognised chatter"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Send over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ali, Radio Check, over."
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Radio Check loud and clear, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ali, Radio Check OK, out."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "event": "User radio check with one another person (one another)",
+    "description": "TPO Kevin conducts Radio Check with his Partner, Joe using Group Call. (TPO Kevin selects the appropriate Group Channel, press the PTT button \u2026..)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "JOe, this is TPO Kevin message, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Joe, send, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Kevin, Radio Check, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Joe, Radio Check OK, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Kevin, Radio Check OK. out."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "event": "User radio check with one another person (one another)",
+    "description": "TPO Zul conducts Radio Check with his Partner, Lee using Group Call. (TPO Zul selects the appropriate Group Channel, press the PTT button \u2026..)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "Lee, this is TPO Zul message, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Lee, send, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Zul, Radio Check, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Lee, Radio Check OK, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Zul, Radio Check OK. out."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "event": "User radio check with one another person (one another)",
+    "description": "TPO Ali conducts Radio Check with his Partner, Rajoo using Group Call. (TPO Ali selects the appropriate Group Channel, press the PTT button \u2026..)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "Rajoo, this is TPO Ali message, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Rajoo, send, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ali, Radio Check, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Rajoo, Radio Check OK, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ali, Radio Check OK. out."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "event": "User radio check with one another person (one another)",
+    "description": "TPO Ho conducts Radio Check with his Partner, Joey using Group Call. (TPO Ho selects the appropriate Group Channel, press the PTT button \u2026..)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "Joey, this is TPO Ho message, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Joey, send, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ho, Radio Check, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Joey, Radio Check OK, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ho, Radio Check OK. out."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "event": "User radio check with one another person (one another)",
+    "description": "TPO Ali conducts Radio Check with his Partner, Rajoo using Group Call. (TPO Ali selects the appropriate Group Channel, press the PTT button \u2026..)",
+    "conversation": [
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "Rajoo, this is TPO Ali message, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Rajoo, send, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ali, Radio Check, over."
+      },
+      {
+        "control": "{PARTNER_NAME}",
+        "utterance": "Rajoo, Radio Check OK, over."
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ali, Radio Check OK. out."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "event": "User request for Track Access from TC",
+    "description": "TPO Ho calls Main Line Zero One to request for Track Access using Individual Calls ( Main Line Zero One responded on Main Line Zero One); and in this case request is denied, as OCS is still live.",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Send, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ho, Can I access the tracks, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Negative. OCS is still live, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ho, Wilco, out"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "event": "User request for Track Access from TC",
+    "description": "TPO Loh calls Main Line Zero Two to request for Track Access using Individual Calls ( Main Line Zero Two responded on Main Line Zero Two); and in this case request is denied, as OCS is still live.",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Send, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Loh, Can I access the tracks, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Negative. OCS is still live, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Loh, Wilco, out"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "event": "User request for Track Access from TC",
+    "description": "TPO Loh calls Main Line Zero One to request for Track Access using Individual Calls ( Main Line Zero One responded on Main Line Zero One); and in this case request is denied, as OCS is still live.",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Send, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Loh, Can I access the tracks, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero One, Negative. OCS is still live, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Loh, Wilco, out"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "event": "User request for Track Access from TC",
+    "description": "TPO Ho calls Main Line Zero Two to request for Track Access using Individual Calls ( Main Line Zero Two responded on Main Line Zero Two); and in this case request is denied, as OCS is still live.",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Send, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ho, Can I access the tracks, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Negative. OCS is still live, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Ho, Wilco, out"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "event": "User request for Track Access from TC",
+    "description": "TPO Kevin calls Main Line Zero Two to request for Track Access using Individual Calls ( Main Line Zero Two responded on Main Line Zero Two); and in this case request is denied, as OCS is still live.",
+    "conversation": [
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Send, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Kevin, Can I access the tracks, over"
+      },
+      {
+        "control": "{CONTROL_CENTER}",
+        "utterance": "Main Line Zero Two, Negative. OCS is still live, over"
+      },
+      {
+        "users": "{TPO_NAME}",
+        "utterance": "TPO Kevin, Wilco, out"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "event": "Emergency Situation",
+    "description": "Car 22 reports rail crack near point 701 on track Sierra One East.",
+    "conversation": [
+      {
+        "users": "Car 22",
+        "utterance": "Emergency, Emergency, Depot Zero, this is Car Two Two at track Sierra One East. Rail crack spotted near point Seven Zero One, over."
+      },
+      {
+        "control": "Depot 0",
+        "utterance": "Depot Zero, read back message, stop your train immediately and standby for further instructions, over."
+      },
+      {
+        "users": "Car 22",
+        "utterance": "Car Two Two, I read back message, train stopped, standing by for further instructions, over."
+      },
+      {
+        "control": "Depot 0",
+        "utterance": "Depot Zero, roger, wait out."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "event": "Emergency Situation",
+    "description": "Car 36 reports rail crack near point 402 on track Zulu Two West.",
+    "conversation": [
+      {
+        "users": "Car 36",
+        "utterance": "Emergency, Emergency, Depot One, this is Car Three Six at track Zulu Two West. Rail crack spotted near point Four Zero Two, over."
+      },
+      {
+        "control": "Depot 1",
+        "utterance": "Depot One, read back message, stop your train immediately and standby for further instructions, over."
+      },
+      {
+        "users": "Car 36",
+        "utterance": "Car Three Six, I read back message, train stopped, standing by for further instructions, over."
+      },
+      {
+        "control": "Depot 1",
+        "utterance": "Depot One, roger, wait out."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "event": "Emergency Situation",
+    "description": "Car 47 reports rail crack near point 305 on track Alpha Three North.",
+    "conversation": [
+      {
+        "users": "Car 47",
+        "utterance": "Emergency, Emergency, Depot Three, this is Car Four Seven at track Alpha Three North. Rail crack spotted near point Three Zero Five, over."
+      },
+      {
+        "control": "Depot 3",
+        "utterance": "Depot Three, read back message, stop your train immediately and standby for further instructions, over."
+      },
+      {
+        "users": "Car 47",
+        "utterance": "Car Four Seven, I read back message, train stopped, standing by for further instructions, over."
+      },
+      {
+        "control": "Depot 3",
+        "utterance": "Depot Three, roger, wait out."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "event": "Emergency Situation",
+    "description": "Car 51 reports rail crack near point 112 on track Papa One South.",
+    "conversation": [
+      {
+        "users": "Car 51",
+        "utterance": "Emergency, Emergency, Depot Four, this is Car Five One at track Papa One South. Rail crack spotted near point One One Two, over."
+      },
+      {
+        "control": "Depot 4",
+        "utterance": "Depot Four, read back message, stop your train immediately and standby for further instructions, over."
+      },
+      {
+        "users": "Car 51",
+        "utterance": "Car Five One, I read back message, train stopped, standing by for further instructions, over."
+      },
+      {
+        "control": "Depot 4",
+        "utterance": "Depot Four, roger, wait out."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "event": "Emergency Situation",
+    "description": "Car 64 reports rail crack near point 909 on track Whiskey Four North.",
+    "conversation": [
+      {
+        "users": "Car 64",
+        "utterance": "Emergency, Emergency, Depot Five, this is Car Six Four at track Whiskey Four North. Rail crack spotted near point Nine Zero Nine, over."
+      },
+      {
+        "control": "Depot 5",
+        "utterance": "Depot Five, read back message, stop your train immediately and standby for further instructions, over."
+      },
+      {
+        "users": "Car 64",
+        "utterance": "Car Six Four, I read back message, train stopped, standing by for further instructions, over."
+      },
+      {
+        "control": "Depot 5",
+        "utterance": "Depot Five, roger, wait out."
+      }
+    ]
+  }
+]

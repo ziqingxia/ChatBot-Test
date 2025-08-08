@@ -1,0 +1,32 @@
+[
+    {
+        "role": "user",
+        "content": "INPUT PROMPT:\nKendrik, this is TPO Lim message, over.\n-------\nCONTEXT:\n{TPO_NAME} calls {CONTROL_CENTER} to surrender his TOA after completion of work. (Non Traffic Hours Track Access and {TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}…....)\nDepot TC calls {TPO_NAME} to inform SPKS has been removed. ( {DEPOT_CONTROL} activates the TETRA radio number of {TPO_NAME}....)\n{TPO_NAME} calls {DEPOT_CONTROL} to request for Track Access  ( {TPO_NAME} activates the TETRA radio number of {DEPOT_CONTROL}....)\n{TPO_NAME} conducts Radio Check with Traffic Controller using Individual Call. ({TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}…....)\nP-Way Technician, {TPO_NAME}, calls {CONTROL_CENTER} for authorisation to operate SPKS before accessing onto the tracks.( {TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}....)",
+        "model": "PureBERT"
+    },
+    {
+        "role": "assistant",
+        "content": "Roger, over.",
+        "model": "PureBERT"
+    },
+    {
+        "role": "user",
+        "content": "INPUT PROMPT:\nTPO Lim, Radio Check, over.\n-------\nCONTEXT:\n{TPO_NAME} conducts Radio Check with Traffic Controller using Individual Call. ({TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}…....)\n{TPO_NAME} calls {CONTROL_CENTER} to surrender his TOA after completion of work. (Non Traffic Hours Track Access and {TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}…....)\n{TPO_NAME} calls {DEPOT_CONTROL} to request for Track Access  ( {TPO_NAME} activates the TETRA radio number of {DEPOT_CONTROL}....)\n{TPO_NAME} conducts Radio Check with his Partner, {PARTNER_NAME} using Group Call. ({TPO_NAME} selects the appropriate Group Channel, press the PTT button …..)\nDepot TC calls {TPO_NAME} to inform SPKS has been removed. ( {DEPOT_CONTROL} activates the TETRA radio number of {TPO_NAME}....)",
+        "model": "PureBERT"
+    },
+    {
+        "role": "assistant",
+        "content": "Radio Check OK, over.",
+        "model": "PureBERT"
+    },
+    {
+        "role": "user",
+        "content": "INPUT PROMPT:\nTPO Lim, Radio Check OK. out.\n-------\nCONTEXT:\n{TPO_NAME} conducts Radio Check with Traffic Controller using Individual Call. ({TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}…....)\n{TPO_NAME} calls {DEPOT_CONTROL} to request for Track Access  ( {TPO_NAME} activates the TETRA radio number of {DEPOT_CONTROL}....)\n{TPO_NAME} calls {CONTROL_CENTER} to surrender his TOA after completion of work. (Non Traffic Hours Track Access and {TPO_NAME} activates the TETRA radio number of {CONTROL_CENTER}…....)\n{TPO_NAME} conducts Radio Check with his Partner, {PARTNER_NAME} using Group Call. ({TPO_NAME} selects the appropriate Group Channel, press the PTT button …..)\nDepot TC calls {TPO_NAME} to inform SPKS has been removed. ( {DEPOT_CONTROL} activates the TETRA radio number of {TPO_NAME}....)",
+        "model": "PureBERT"
+    },
+    {
+        "role": "assistant",
+        "content": "Radio Check OK, over.",
+        "model": "PureBERT"
+    }
+]
