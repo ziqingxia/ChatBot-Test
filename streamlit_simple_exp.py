@@ -7,7 +7,8 @@ from datetime import datetime
 import re
 import importlib
 
-# Check for CUDA availability and handle torch imports
+# === CUDA Safety Setup ===
+# Check for CUDA availability and handle torch imports safely
 try:
     # Check if CUDA is available
     if torch.cuda.is_available():
@@ -17,13 +18,19 @@ try:
 except Exception as e:
     st.warning(f"Error checking CUDA availability: {e}")
 
-from chatbot_exp import ChatBot, InvalidAPIKeyError
-from database_web import RAGKnowledgeBase
-from fewshot_exp import InContextLearner
+# Import dependencies with error handling
+try:
+    from chatbot_exp import ChatBot, InvalidAPIKeyError
+    from database_web import RAGKnowledgeBase  # Use web version for CUDA safety
+    from fewshot_exp import InContextLearner
+    DEPENDENCIES_AVAILABLE = True
+except Exception as e:
+    st.error(f"Failed to import required dependencies: {e}")
+    DEPENDENCIES_AVAILABLE = False
 
 # Page configuration
 st.set_page_config(
-    page_title="Safety ChatBot System - Experimental",
+    page_title="Safety Training ChatBot - Simple",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -132,13 +139,17 @@ if ("user_api_key" not in st.session_state or not st.session_state["user_api_key
 @st.cache_resource
 def load_config():
     """Load configuration file"""
-    with open('configs/config_exp.yaml', 'r') as file:
-        config = yaml.safe_load(file)
-    return config
+    try:
+        with open('configs/config_exp.yaml', 'r') as file:
+            config = yaml.safe_load(file)
+        return config
+    except Exception as e:
+        st.error(f"Failed to load config: {e}")
+        return None
 
 @st.cache_resource
 def load_rag_system(config):
-    """Load RAG database and dictionary"""
+    """Load RAG database and dictionary with CUDA safety"""
     try:
         # Check CUDA availability before loading
         if torch.cuda.is_available():
@@ -191,18 +202,6 @@ def initialize_session_state():
     if 'current_event_desc' not in st.session_state:
         st.session_state.current_event_desc = None
     
-    if 'ai_role' not in st.session_state:
-        st.session_state.ai_role = None
-    
-    if 'user_role' not in st.session_state:
-        st.session_state.user_role = None
-    
-    if 'conversation_started' not in st.session_state:
-        st.session_state.conversation_started = False
-    
-    if 'selected_persona' not in st.session_state:
-        st.session_state.selected_persona = 1
-    
     if 'current_event_obj' not in st.session_state:
         st.session_state.current_event_obj = None
     
@@ -214,6 +213,18 @@ def initialize_session_state():
     
     if 'current_event_que' not in st.session_state:
         st.session_state.current_event_que = None
+    
+    if 'ai_role' not in st.session_state:
+        st.session_state.ai_role = None
+    
+    if 'user_role' not in st.session_state:
+        st.session_state.user_role = None
+    
+    if 'conversation_started' not in st.session_state:
+        st.session_state.conversation_started = False
+    
+    if 'selected_persona' not in st.session_state:
+        st.session_state.selected_persona = 1
     
     if 'intro_completed' not in st.session_state:
         st.session_state.intro_completed = False
@@ -241,47 +252,6 @@ def display_chat_message(role, content):
             </div>
         </div>
         """, unsafe_allow_html=True)
-
-def start_new_conversation(event_name, event_desc, event_obj, event_conv, event_point, event_que, ai_role, user_role, chatbot, rag_database, rag_dictionary, knowledge_phrases, config, persona_module):
-    """Start a new conversation"""
-    st.session_state.current_event = event_name
-    st.session_state.current_event_desc = event_desc
-    st.session_state.current_event_obj = event_obj
-    st.session_state.current_event_conv = event_conv
-    st.session_state.current_event_point = event_point
-    st.session_state.current_event_que = event_que
-    st.session_state.ai_role = ai_role
-    st.session_state.user_role = user_role
-    st.session_state.chatbot = chatbot
-    st.session_state.conversation_started = True
-    st.session_state.messages = []
-    st.session_state.intro_completed = False
-    st.session_state.training_started = False
-    
-    # Set chat type
-    chatbot.set_chat_type(chat_type="conversation")
-    
-    # Load persona prompts
-    chatbot.set_persona_module(persona_module)
-    
-    # Start with intro
-    try:
-        response = chatbot.chat_intro(event_name, event_desc, event_obj, event_conv, user_role, ai_role, "")
-        st.session_state.messages.append({"role": "assistant", "content": response})
-        st.session_state.intro_completed = True
-        st.rerun()
-    except InvalidAPIKeyError:
-        st.session_state["api_key_cleared"] = True
-        if "user_api_key" in st.session_state:
-            del st.session_state["user_api_key"]
-        if "OPENAI_API_KEY" in os.environ:
-            del os.environ["OPENAI_API_KEY"]
-        st.session_state.messages = [{
-            "role": "assistant",
-            "content": "🚫 Your API key is invalid. Please enter a valid OpenAI API key in the sidebar to continue."
-        }]
-        st.session_state.conversation_started = False
-        st.rerun()
 
 def clean_response(text):
     """Clean response text while preserving some formatting"""
@@ -324,8 +294,49 @@ def clean_response(text):
     
     return text
 
+def start_new_conversation(event_name, event_desc, event_obj, event_conv, event_point, event_que, ai_role, user_role, chatbot, rag_database, rag_dictionary, knowledge_phrases, config, persona_module):
+    """Start a new conversation based on main_exp.py logic"""
+    st.session_state.current_event = event_name
+    st.session_state.current_event_desc = event_desc
+    st.session_state.current_event_obj = event_obj
+    st.session_state.current_event_conv = event_conv
+    st.session_state.current_event_point = event_point
+    st.session_state.current_event_que = event_que
+    st.session_state.ai_role = ai_role
+    st.session_state.user_role = user_role
+    st.session_state.chatbot = chatbot
+    st.session_state.conversation_started = True
+    st.session_state.messages = []
+    st.session_state.intro_completed = False
+    st.session_state.training_started = False
+    
+    # Set chat type
+    chatbot.set_chat_type(chat_type="conversation")
+    
+    # Load persona prompts
+    chatbot.set_persona_module(persona_module)
+    
+    # Start with intro (based on main_exp.py logic)
+    try:
+        response = chatbot.chat_intro(event_name, event_desc, event_obj, event_conv, user_role, ai_role, "")
+        st.session_state.messages.append({"role": "assistant", "content": clean_response(response)})
+        st.session_state.intro_completed = True
+        st.rerun()
+    except InvalidAPIKeyError:
+        st.session_state["api_key_cleared"] = True
+        if "user_api_key" in st.session_state:
+            del st.session_state["user_api_key"]
+        if "OPENAI_API_KEY" in os.environ:
+            del os.environ["OPENAI_API_KEY"]
+        st.session_state.messages = [{
+            "role": "assistant",
+            "content": "🚫 Your API key is invalid. Please enter a valid OpenAI API key in the sidebar to continue."
+        }]
+        st.session_state.conversation_started = False
+        st.rerun()
+
 def process_user_message(user_input, chatbot, rag_database, rag_dictionary, knowledge_phrases, config):
-    """Process user message and generate response"""
+    """Process user message based on main_exp.py logic"""
     event_name = st.session_state.current_event
     event_desc = st.session_state.current_event_desc
     event_obj = st.session_state.current_event_obj
@@ -344,48 +355,43 @@ def process_user_message(user_input, chatbot, rag_database, rag_dictionary, know
         st.rerun()
         return "Conversation ended by user."
     
-    # Handle intro phase
+    # Handle intro phase (based on main_exp.py logic)
     if st.session_state.intro_completed and not st.session_state.training_started:
         if user_input.lower() == 'start':
             st.session_state.training_started = True
-            # Start phase 1
+            # Start phase 1 (based on main_exp.py logic)
             response = chatbot.chat_start_phase1(event_name, event_desc, event_obj, event_point, event_conv, event_que, user_role, ai_role)
             return clean_response(response)
         else:
             return "Please type 'start' to begin the training, or 'break' to end the conversation."
     
-    # Search knowledge
-    search_key = f"Event: {event_name}\nDescription: {event_desc}\nai role: {ai_role}\nusers: {user_role}\nutterance: {user_input}"
-    data_content = rag_database.search_knowledge(search_key, prefix="RAG Database", topk=config['SEARCH']['TOPK'])
-    dict_content = rag_dictionary.search_knowledge(search_key, prefix="RAG Dictionary", topk=config['SEARCH']['TOPK'])
-    
-    # Generate response
-    try:
-        if st.session_state.training_started:
-            # Continue conversation
-            response = chatbot.chat_continue_phase1(event_name, event_desc, event_obj, event_point, event_conv, event_que, user_role, ai_role, user_input, data_content, dict_content)
-            return clean_response(response)
-        else:
-            return "Please type 'start' to begin the training, or 'break' to end the conversation."
-    except InvalidAPIKeyError:
-        st.session_state["api_key_cleared"] = True
-        if "user_api_key" in st.session_state:
-            del st.session_state["user_api_key"]
-        if "OPENAI_API_KEY" in os.environ:
-            del os.environ["OPENAI_API_KEY"]
-        st.session_state.messages.append({
-            "role": "assistant",
-            "content": "🚫 Your API key is invalid. Please enter a valid OpenAI API key in the sidebar to continue."
-        })
-        st.session_state.conversation_started = False
-        st.rerun()
+    # Continue conversation (based on main_exp.py logic)
+    if st.session_state.training_started:
+        # Search knowledge (based on main_exp.py logic)
+        search_key = f"Event: {event_name}\nDescription: {event_desc}\nai role: {ai_role}\nusers: {user_role}\nutterance: {user_input}"
+        data_content = rag_database.search_knowledge(search_key, prefix="RAG Database", topk=config['SEARCH']['TOPK'])
+        dict_content = rag_dictionary.search_knowledge(search_key, prefix="RAG Dictionary", topk=config['SEARCH']['TOPK'])
+        
+        # Continue conversation (based on main_exp.py logic)
+        response = chatbot.chat_continue_phase1(event_name, event_desc, event_obj, event_point, event_conv, event_que, user_role, ai_role, user_input, data_content, dict_content)
+        return clean_response(response)
+    else:
+        return "Please type 'start' to begin the training, or 'break' to end the conversation."
 
 def main():
+    # Check dependencies
+    if not DEPENDENCIES_AVAILABLE:
+        st.error("Required dependencies are not available. Please check your installation.")
+        return
+    
     # Initialize session state
     initialize_session_state()
     
     # Load configuration
     config = load_config()
+    if config is None:
+        st.error("Failed to load configuration.")
+        return
     
     # Load RAG system
     rag_database, rag_dictionary, knowledge_phrases, context_learner = load_rag_system(config)
@@ -395,7 +401,7 @@ def main():
         return
     
     # Main header
-    st.markdown('<h1 class="main-header">🤖 Safety ChatBot System - Experimental</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🤖 Safety Training ChatBot - Simple</h1>', unsafe_allow_html=True)
     
     # Sidebar for configuration
     with st.sidebar:
@@ -443,7 +449,7 @@ def main():
             
             # Event selection dropdown
             selected_event = st.selectbox(
-                "Choose an event type:",
+                "Choose a training scenario:",
                 event_types,
                 format_func=lambda x: f"{x}",
                 help="Select the type of safety event to practice"
@@ -560,13 +566,13 @@ def main():
                     st.error(f"Error generating response: {str(e)}")
     else:
         # Welcome message
-        st.info("👈 Please select an event type from the sidebar to start a conversation.")
+        st.info("👈 Please select a training scenario and persona from the sidebar to start a conversation.")
         
         # Display available events
         if context_learner:
             event_types, event_descs, event_objs, event_convs, event_points, event_ques = context_learner.get_types()
             
-            st.subheader("Available Event Types")
+            st.subheader("Available Training Scenarios")
             for i, (event_type, event_desc) in enumerate(zip(event_types, event_descs)):
                 with st.expander(f"{i+1}. {event_type}"):
                     st.write(f"**Description:** {event_desc}")
