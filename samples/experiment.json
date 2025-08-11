@@ -24,7 +24,7 @@
       "Why need to request access to track?",
       "What does TPO refer to?",
       "What does OCS refer to?",
-      "Why say 'negative' rather than 'no'?"    ],
+      "Why say 'negative' rather than 'no'?"],
     "conversation": [
       {
         "users": "TPO Kevin",
@@ -60,7 +60,7 @@
       "What does PSD refer to?",
       "Why say 'correct' rather than 'yes' or 'right'?"
     ],
-    "description": "You are acting as TPO Sam. While on duty, you observe that Platform Screen Door (PSD) number four is malfunctioning \u2014 it is closing more slowly than normal. You must promptly report this fault to the Traffic Controller (TC) and clearly confirm their understanding of the issue.",
+    "description": "You are acting as TPO Kevin. While on duty, you observe that Platform Screen Door (PSD) number four is malfunctioning \u2014 it is closing more slowly than normal. You must promptly report this fault to the Traffic Controller (TC) and clearly confirm their understanding of the issue.",
     "learning_points": [
       "Faults such as a slow-closing Platform Screen Door (PSD) can affect safety and train operations. Reporting ensures the TC is aware of the issue and can take action to monitor or fix it.",
 
@@ -74,24 +74,24 @@
     ],
     "conversation": [
       {
-        "users": "TPO Sam",
-        "utterance": "TPO Sam, Platform Screen Door number four is closing slowly, over"
+        "users": "TPO Kevin",
+        "utterance": "TPO Kevin, Platform Screen Door number four is closing slowly, over"
       },
       {
         "control": "Mainline 02",
         "utterance": "Main Line Zero Two, Please confirm Platform Screen Door number four is closing slowly, over"
       },
       {
-        "users": "TPO Sam",
-        "utterance": "TPO Sam, That is correct, over"
+        "users": "TPO Kevin",
+        "utterance": "TPO Kevin, That is correct, over"
       },
       {
         "control": "Mainline 02",
         "utterance": "Main Line Zero Two, Monitor for the next two trains, over"
       },
       {
-        "users": "TPO Sam",
-        "utterance": "TPO Sam, Wilco, out"
+        "users": "TPO Kevin",
+        "utterance": "TPO Kevin, Wilco, out"
       }
     ]
   },
@@ -133,6 +133,10 @@
       {
         "control": "Depot 0",
         "utterance": "Depot Zero, Roger, wait out"
+      },
+      {
+        "users": "Car 09",
+        "utterance": "Car Zero Nine, Wilco, out"
       }
     ]
   }
